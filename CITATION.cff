@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: AI Local Visibility Index
+message: If you use this dataset, please cite it as below.
+type: dataset
+authors:
+  - family-names: İskifoğlu
+    given-names: Abdullah
+url: https://localseen.ai/research
+repository-code: https://github.com/iskifogl/ai-local-visibility-index
+license: CC-BY-4.0
+date-released: 2026-08-20
+keywords:
+  - local search
+  - generative engine optimization
+  - AI search
+  - local SEO

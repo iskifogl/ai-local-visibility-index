@@ -1,0 +1,3531 @@
+{
+  "study": "AI Local Visibility Index",
+  "collected": "2026-08-15/16",
+  "rules": "https://localseen.ai/research#rules",
+  "denominatorNote": "Businesses returned by Google Maps for '<category> in <city>' at the city coordinate, depth 100, deduplicated by title.",
+  "matcher": "strict phrase match; the looser product matcher is reported alongside as an upper bound",
+  "markets": [
+    {
+      "market": "coffee shop / Austin, TX",
+      "rosterSize": 93,
+      "namedStrict": [
+        "Afuga Coffee",
+        "Dear Diary Coffee",
+        "Desnudo Coffee: East Austin",
+        "Epoch Coffee",
+        "Figure 8 Coffee Purveyors",
+        "Fleet Coffee",
+        "Houndstooth Coffee",
+        "Idlewild Coffee",
+        "Mozart's Coffee Roasters",
+        "Terrible Love"
+      ],
+      "namedLoose": [
+        "Afuga Coffee",
+        "Bennu Coffee on Congress",
+        "Café Crème - Downtown",
+        "Cosmic Saltillo",
+        "Dear Diary Coffee",
+        "Desnudo Coffee: Downtown",
+        "Desnudo Coffee: East Austin",
+        "Epoch Coffee",
+        "Figure 8 Coffee Purveyors",
+        "Figure 8 Coffee Purveyors Cafe & Roastery",
+        "Fleet Coffee",
+        "Houndstooth Coffee",
+        "Idlewild Coffee",
+        "Jo's Coffee – South Congress",
+        "Lake Austin Coffee Spot",
+        "Medici Roasting - West Lynn",
+        "Merit Coffee Co.",
+        "Mozart's Coffee Roasters",
+        "Terrible Love",
+        "The Brew and Brew"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Epoch Coffee",
+          "Figure 8 Coffee Purveyors",
+          "Fleet Coffee",
+          "Houndstooth Coffee",
+          "Mozart's Coffee Roasters"
+        ],
+        "claude": [
+          "Houndstooth Coffee"
+        ],
+        "gemini": [
+          "Figure 8 Coffee Purveyors",
+          "Fleet Coffee",
+          "Houndstooth Coffee",
+          "Mozart's Coffee Roasters"
+        ],
+        "ai_overviews": [
+          "Afuga Coffee",
+          "Dear Diary Coffee",
+          "Desnudo Coffee: East Austin",
+          "Idlewild Coffee",
+          "Mozart's Coffee Roasters",
+          "Terrible Love"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Austin, TX",
+      "rosterSize": 96,
+      "namedStrict": [
+        "24 Hour Fitness",
+        "Atomic Athlete",
+        "Barry's Austin",
+        "Bouldering Project - Springdale",
+        "Castle Hill Fitness",
+        "Equinox Austin",
+        "FeV Iron Vault Gym",
+        "Generator Athlete Lab",
+        "Gold's Gym Austin Downtown",
+        "Hyde Park Gym",
+        "Kollective",
+        "Korrect Fitness",
+        "LA Fitness",
+        "Life Time",
+        "Lift ATX",
+        "THIS Gym",
+        "Townlake YMCA"
+      ],
+      "namedLoose": [
+        "24 Hour Fitness",
+        "Atomic Athlete",
+        "Austin Barbell Club (North)",
+        "Barry's Austin",
+        "Bouldering Project - Springdale",
+        "Castle Hill Fitness",
+        "Community Strength Austin - Personal Training",
+        "CrossFit Central Downtown",
+        "Driven Performance Training",
+        "Equinox Austin",
+        "F45 Training Hilton Downtown Austin",
+        "FeV Iron Vault Gym",
+        "Frost Bank Tower Executive Health Club",
+        "Generator Athlete Lab",
+        "Gold's Gym Austin Downtown",
+        "Gym Studios - Austin",
+        "Gym Studios - E 5th St",
+        "Hyde Park Gym",
+        "Kollective",
+        "Korrect Fitness",
+        "LA Fitness",
+        "Life Time",
+        "Lift ATX",
+        "Los Campeones Gym Austin North",
+        "MOVE Austin Fitness",
+        "Studio Three Austin",
+        "THIS Gym",
+        "The WIP",
+        "Townlake YMCA",
+        "UT Recreational Sports Center",
+        "YTX Yoga, Strength, Pilates, & Recovery"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Barry's Austin",
+          "Castle Hill Fitness",
+          "Equinox Austin",
+          "Gold's Gym Austin Downtown",
+          "Life Time"
+        ],
+        "claude": [
+          "24 Hour Fitness",
+          "Equinox Austin",
+          "LA Fitness",
+          "Life Time"
+        ],
+        "gemini": [
+          "Castle Hill Fitness",
+          "Hyde Park Gym",
+          "Life Time",
+          "THIS Gym"
+        ],
+        "ai_overviews": [
+          "Atomic Athlete",
+          "Bouldering Project - Springdale",
+          "Castle Hill Fitness",
+          "FeV Iron Vault Gym",
+          "Generator Athlete Lab",
+          "Hyde Park Gym",
+          "Kollective",
+          "Korrect Fitness",
+          "Life Time",
+          "Lift ATX",
+          "THIS Gym",
+          "Townlake YMCA"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Austin, TX",
+      "rosterSize": 96,
+      "namedStrict": [
+        "38th Street Dental",
+        "ATX Family Dental",
+        "Austin City Dental",
+        "Austin Dental Works",
+        "Barton Oaks Dental Group",
+        "Forest Family Dentistry",
+        "North Austin Dentistry",
+        "Toothbar",
+        "West Lake Hills Dental"
+      ],
+      "namedLoose": [
+        "38th Street Dental",
+        "ATX Family Dental",
+        "Airport Dental Care",
+        "Austin City Dental",
+        "Austin Dental Center, PC",
+        "Austin Dental Works",
+        "Austin Emergency Dental",
+        "Austin Family Dentist",
+        "Authentic Smiles",
+        "Barton Oaks Dental Group",
+        "Castle Dental & Orthodontics - Austin, TX (Central Austin)",
+        "Downtown Dental Design",
+        "Emergency Dentist of Austin",
+        "Find My Dentist",
+        "Forest Family Dentistry",
+        "Glint Dental Studio Austin",
+        "Midtown Dental Associates",
+        "North Austin Dentistry",
+        "River Rock Dental Austin - Mueller",
+        "Smile Haus Austin",
+        "Smiles of Austin",
+        "South Austin Dental",
+        "South Austin Dentist",
+        "Sunset Hills Dentistry",
+        "Swish Dental - Mueller Family",
+        "Swish Dental Downtown",
+        "Swish Dental South",
+        "The Austin Dentist - Westlake",
+        "The Local Dentist",
+        "Toothbar",
+        "West Austin Dental",
+        "West Lake Hills Dental"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Austin Dental Works",
+          "Barton Oaks Dental Group",
+          "West Lake Hills Dental"
+        ],
+        "claude": [],
+        "gemini": [
+          "Austin City Dental",
+          "North Austin Dentistry"
+        ],
+        "ai_overviews": [
+          "38th Street Dental",
+          "ATX Family Dental",
+          "Austin Dental Works",
+          "Forest Family Dentistry",
+          "Toothbar"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Austin, TX",
+      "rosterSize": 98,
+      "namedStrict": [
+        "Abacus Plumbing, Air Conditioning & Electrical",
+        "Abacus Plumbing, Air Conditioning, & Electrical",
+        "Austin Plumber's",
+        "Austin Plumbing",
+        "Austin's Greatest Plumbing",
+        "Beyond Wow Plumbing & Drains",
+        "Fox Service Company",
+        "Plumbing Outfitters",
+        "Radiant Plumbing, Air Conditioning, & Electrical",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Stan's Heating, Air, Plumbing & Electrical"
+      ],
+      "namedLoose": [
+        "1st Home & Commercial Services",
+        "A D L Plumbing & Services",
+        "Abacus Plumbing, Air Conditioning & Electrical",
+        "Austin Plumber's",
+        "Austin Plumbing",
+        "Austin's Greatest Plumbing",
+        "Beyond Wow Plumbing & Drains",
+        "Fast Plumbing LLC",
+        "Fox Service Company",
+        "Plumbing Outfitters",
+        "Radiant Plumbing, Air Conditioning, & Electrical",
+        "Reliant Plumbing - Austin",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "SALT Plumbing Air & Electric",
+        "Stan's Heating, Air, Plumbing & Electrical",
+        "Strand Brothers Service Experts",
+        "TJ Plumber Austin"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Abacus Plumbing, Air Conditioning & Electrical",
+          "Abacus Plumbing, Air Conditioning, & Electrical",
+          "Austin Plumber's",
+          "Fox Service Company",
+          "Stan's Heating, Air, Plumbing & Electrical"
+        ],
+        "claude": [
+          "Austin Plumbing",
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "gemini": [
+          "Austin Plumbing",
+          "Fox Service Company"
+        ],
+        "ai_overviews": [
+          "Austin Plumber's",
+          "Austin Plumbing",
+          "Austin's Greatest Plumbing",
+          "Beyond Wow Plumbing & Drains",
+          "Plumbing Outfitters",
+          "Radiant Plumbing, Air Conditioning, & Electrical"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Denver, CO",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Cherry Creek Dental Associates",
+        "Cherry Creek Dental Spa",
+        "Dental Elements",
+        "Denver Dentistry",
+        "Denver Place Dentistry",
+        "Downtown Denver Dental",
+        "Emergency Dental of Denver",
+        "Lodo Dental",
+        "Metropolitan Dental Care",
+        "Mountain View Dental Associates",
+        "OG Dental",
+        "RiNo Dental",
+        "Smile Studio Dental",
+        "The Denver Dentists"
+      ],
+      "namedLoose": [
+        "5280 Teeth Whitening",
+        "Advanced Aesthetic Dentistry",
+        "Branin Center for Dentistry - Denver Highland",
+        "Cherry Creek Dental Associates",
+        "Cherry Creek Dental Spa",
+        "Colorado Dental Examiners Brd",
+        "Comfort Dental - Cherry Creek",
+        "Comfort Dental - Downtown Denver",
+        "Dental Crowns Denver",
+        "Dental Elements",
+        "Dentists of Washington Park",
+        "Denver Dentistry",
+        "Denver Family Dental",
+        "Denver Place Dentistry",
+        "Downtown Denver Dental",
+        "EC Family & Cosmetic Dentistry",
+        "Emergency Dental of Denver",
+        "Governor's Park Dental Group",
+        "Highlands Dentists",
+        "Lodo Dental",
+        "Metro Denver Dental Society & Mountain West Dental Institute",
+        "Metropolitan Dental Care",
+        "Mile High Family Dental",
+        "Mountain View Dental Associates",
+        "My Cherry Creek Dentist",
+        "OG Dental",
+        "RiNo Dental",
+        "River North Modern Dentistry",
+        "Sierra Dental & Orthodontics - River North",
+        "Smile Studio Dental",
+        "The Dental Team of Cherry Creek",
+        "The Dentistry Place",
+        "The Denver Dentists",
+        "University Dental Arts",
+        "Uptown Smiles",
+        "Urgent Dental of Denver"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Cherry Creek Dental Associates",
+          "Denver Dentistry",
+          "Denver Place Dentistry",
+          "Downtown Denver Dental",
+          "RiNo Dental",
+          "The Denver Dentists"
+        ],
+        "claude": [
+          "Lodo Dental"
+        ],
+        "gemini": [
+          "Cherry Creek Dental Associates",
+          "RiNo Dental"
+        ],
+        "ai_overviews": [
+          "Cherry Creek Dental Spa",
+          "Dental Elements",
+          "Downtown Denver Dental",
+          "Emergency Dental of Denver",
+          "Metropolitan Dental Care",
+          "Mountain View Dental Associates",
+          "OG Dental",
+          "Smile Studio Dental"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Austin, TX",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Birds Barbershop",
+        "Black Orchid Salon",
+        "Boho Salon",
+        "Hair House ATX",
+        "Lather Salon",
+        "Method Hair",
+        "Nova Hair Collective",
+        "Plume Salon",
+        "Raven Row Salon",
+        "Red Stella Salon",
+        "Ruiz Salon",
+        "SWOON salon",
+        "Salon Lofts",
+        "Shag Salon",
+        "Spoke & Weal",
+        "Strange Bird Salon"
+      ],
+      "namedLoose": [
+        "Austin Texas Hair",
+        "Birds Barbershop",
+        "Black Orchid Salon",
+        "Boho Salon",
+        "Deep Roots ATX Salon, 360",
+        "Garbo A Salon and Spa Northcross",
+        "Hair House ATX",
+        "Holy Wild",
+        "Janet St. Paul Studio for Hair and Beauty",
+        "Lather Salon",
+        "Little Sister Salon / I Love You Pink",
+        "Method Hair",
+        "Mirror Mirror Salon - The Grove",
+        "Nova Hair Collective",
+        "Plume Salon",
+        "Raven Row Salon",
+        "Red Stella Salon",
+        "Roots Natural Hair Studio",
+        "Ruiz Salon",
+        "SWOON salon",
+        "Salon Lofts",
+        "Shag Salon",
+        "Spoke & Weal",
+        "Strange Bird Salon",
+        "The Collective ATX",
+        "Urban Betty Salon 38th",
+        "Vibe Collective",
+        "milk + honey | Downtown Austin"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Birds Barbershop",
+          "Raven Row Salon",
+          "Ruiz Salon",
+          "SWOON salon",
+          "Shag Salon"
+        ],
+        "claude": [
+          "Salon Lofts",
+          "Spoke & Weal"
+        ],
+        "gemini": [
+          "Black Orchid Salon",
+          "Lather Salon",
+          "Method Hair",
+          "Raven Row Salon"
+        ],
+        "ai_overviews": [
+          "Boho Salon",
+          "Hair House ATX",
+          "Nova Hair Collective",
+          "Plume Salon",
+          "Red Stella Salon",
+          "Strange Bird Salon"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Austin, TX",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Branscomb Law",
+        "Cofer & Connelly",
+        "Dunham & Jones",
+        "Law Offices of Blake Fulton Quackenbush",
+        "McMinn Law Firm",
+        "Michael & Associates Criminal Defense Attorneys",
+        "The Hull Firm"
+      ],
+      "namedLoose": [
+        "AZ Law Firm",
+        "Anderson Injury Lawyers Austin",
+        "Baker Matthews Law Collective, PLLC",
+        "Branscomb Law",
+        "Chambers & Associates",
+        "Cofer & Connelly",
+        "Dunham & Jones",
+        "Eric W. Lim, Attorney at Law",
+        "FVF Law Firm - Injury & Wrongful Death Lawyers - Austin",
+        "George Salinas Injury Lawyers - Austin",
+        "Greenberg Traurig, LLP",
+        "Jason S. English Law, PLLC",
+        "Jl Pro Family Law Attorney",
+        "Latham & Watkins LLP",
+        "Law Office of Betty Blackwell",
+        "Law Office of Jackson F Gorski",
+        "Law Offices of Blake Fulton Quackenbush",
+        "McMinn Law Firm",
+        "Michael & Associates Criminal Defense Attorneys",
+        "Ramos James Law, PLLC",
+        "Scott Douglass & McConnico, LLP",
+        "Smith & Vinson Law Firm",
+        "Sneed & Mitchell LLP - Trucking Accident & Wrongful Death Lawyers®",
+        "The Blum Firm, PC",
+        "The Hull Firm"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Dunham & Jones"
+        ],
+        "claude": [],
+        "gemini": [],
+        "ai_overviews": [
+          "Branscomb Law",
+          "Cofer & Connelly",
+          "Law Offices of Blake Fulton Quackenbush",
+          "McMinn Law Firm",
+          "Michael & Associates Criminal Defense Attorneys",
+          "The Hull Firm"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Denver, CO",
+      "rosterSize": 95,
+      "namedStrict": [
+        "24 Hour Fitness",
+        "Anytime Fitness",
+        "Carla Madison Recreation Center",
+        "Chuze Fitness",
+        "Club Form Denver",
+        "Explore Fitness",
+        "Fit House Denver",
+        "Green Door Fitness",
+        "Life Time",
+        "Movement RiNo",
+        "Orangetheory Fitness",
+        "Planet Fitness",
+        "Rocky Mountain Flex Fitness",
+        "THE Athletic Club",
+        "The Denver Athletic Club",
+        "VASA Fitness"
+      ],
+      "namedLoose": [
+        "24 Hour Fitness",
+        "Anytime Fitness",
+        "Carla Madison Recreation Center",
+        "Chuze Fitness",
+        "Club Form Denver",
+        "Colfax Strong Strength & Conditioning",
+        "EGYM Fitness Denver",
+        "Endorphin City Park",
+        "Explore Fitness",
+        "Fit House Denver",
+        "Fitness in the City - FITC Denver",
+        "Form Personal Training",
+        "Genesis Health Clubs-Tabor Center",
+        "Glenarm Recreation Center",
+        "Green Door Fitness",
+        "Koru Movement Denver",
+        "Life Time",
+        "LoHi Athletic Club",
+        "Movement Baker",
+        "Movement RiNo",
+        "Muscle + Mindset",
+        "Orangetheory Fitness",
+        "Planet Fitness",
+        "River Front Athletic Club",
+        "Rocky Mountain Flex Fitness",
+        "THE Athletic Club",
+        "The Denver Athletic Club",
+        "The River Yoga - Golden Triangle",
+        "The Spot Bouldering Gym",
+        "Twentieth Street Recreation Center",
+        "VASA Fitness",
+        "Yoga Box"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "24 Hour Fitness",
+          "Anytime Fitness",
+          "Chuze Fitness",
+          "Life Time",
+          "Planet Fitness",
+          "The Denver Athletic Club",
+          "VASA Fitness"
+        ],
+        "claude": [
+          "24 Hour Fitness",
+          "Life Time",
+          "Orangetheory Fitness"
+        ],
+        "gemini": [
+          "Anytime Fitness",
+          "Movement RiNo"
+        ],
+        "ai_overviews": [
+          "Carla Madison Recreation Center",
+          "Club Form Denver",
+          "Explore Fitness",
+          "Fit House Denver",
+          "Green Door Fitness",
+          "Rocky Mountain Flex Fitness",
+          "THE Athletic Club",
+          "The Denver Athletic Club"
+        ]
+      },
+      "aiOverviewBlockPresent": false,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Denver, CO",
+      "rosterSize": 87,
+      "namedStrict": [
+        "Coffeegraph",
+        "Corvus Coffee Roasters",
+        "Crema Coffee House",
+        "Dandy Lion Coffee Co.",
+        "Hearth",
+        "Huckleberry Roasters",
+        "Little Owl Coffee",
+        "Novo Coffee",
+        "Queen City Collective Coffee",
+        "Scr3am & Sugar Coffee Co.",
+        "Thump Coffee",
+        "Tí Cafe",
+        "Whittier Cafe"
+      ],
+      "namedLoose": [
+        "Coffeegraph",
+        "Corvus Coffee Roasters",
+        "Crema Coffee House",
+        "Dandy Lion Coffee Co.",
+        "Hearth",
+        "Huckleberry Roasters",
+        "Lavender Coffee Boutique",
+        "Little Owl Coffee",
+        "Little Owl Coffee - LoHi",
+        "Little Owl Coffee - Populus",
+        "Novo Coffee",
+        "Pablo's Coffee - 6th Avenue",
+        "Queen City Collective Coffee",
+        "Scr3am & Sugar Coffee Co.",
+        "The Drip Cafe",
+        "Thump Coffee",
+        "Tí Cafe",
+        "Whittier Cafe"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Corvus Coffee Roasters",
+          "Crema Coffee House",
+          "Huckleberry Roasters",
+          "Little Owl Coffee",
+          "Novo Coffee",
+          "Queen City Collective Coffee",
+          "Thump Coffee"
+        ],
+        "claude": [
+          "Corvus Coffee Roasters",
+          "Thump Coffee"
+        ],
+        "gemini": [
+          "Corvus Coffee Roasters",
+          "Crema Coffee House",
+          "Huckleberry Roasters",
+          "Little Owl Coffee"
+        ],
+        "ai_overviews": [
+          "Coffeegraph",
+          "Corvus Coffee Roasters",
+          "Crema Coffee House",
+          "Dandy Lion Coffee Co.",
+          "Hearth",
+          "Little Owl Coffee",
+          "Scr3am & Sugar Coffee Co.",
+          "Tí Cafe",
+          "Whittier Cafe"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Denver, CO",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Applewood Plumbing Heating & Electric",
+        "Blue Sky Plumbing, Heating, Cooling & Electric",
+        "Brothers Plumbing, Heating & Electric",
+        "Denver Plumbers",
+        "Done Plumbing, Heating, Cooling & Electric",
+        "Golden West Plumbing, Heating, Air Conditioning, and Electrical",
+        "High 5 Plumbing, Heating, Cooling & Electric",
+        "Hyper Flow Service",
+        "My Denver Plumber",
+        "Plumbers Near Me LLC",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Speed plumbing",
+        "Swan Plumbing, Heating & Air of Denver"
+      ],
+      "namedLoose": [
+        "1st Call Heating & Air",
+        "Applewood Plumbing Heating & Electric",
+        "B.C. Plumbing Services",
+        "Better Plumbing",
+        "Blue Sky Plumbing, Heating, Cooling & Electric",
+        "Brothers Plumbing, Heating & Electric",
+        "Brown Brothers Plumbing and HVAC",
+        "Cooper & Sons Plumber’s",
+        "Denver Air Conditioning & Plumber",
+        "Denver Plumbers",
+        "Denver Plumbing Service Co",
+        "Denver Plumbing Services",
+        "Denver Water Heaters",
+        "Done Plumbing, Heating, Cooling & Electric",
+        "Ed's Sewer and Water Repair",
+        "Emergency Plumbers Denver LLC",
+        "Express Family Plumber’s",
+        "Fast Fix Plumber's",
+        "Fast Local Plumber’s",
+        "Golden Plumbing Company",
+        "Golden West Plumbing, Heating, Air Conditioning, and Electrical",
+        "High 5 Plumbing, Heating, Cooling & Electric",
+        "Hyper Flow Service",
+        "I.A.M Heating & Cooling",
+        "King Rooter & Plumbing",
+        "My Denver Plumber",
+        "Plumbers Near Me LLC",
+        "Professional Plumbers Denver",
+        "Quality Plumbing",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Speed plumbing",
+        "Squeaks Services Plumbing Heating & Air - Denver",
+        "Swan Plumbing, Heating & Air of Denver",
+        "Time Plumbing, Heating & Electric Denver"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Applewood Plumbing Heating & Electric",
+          "Blue Sky Plumbing, Heating, Cooling & Electric",
+          "Brothers Plumbing, Heating & Electric",
+          "Denver Plumbers",
+          "Done Plumbing, Heating, Cooling & Electric",
+          "High 5 Plumbing, Heating, Cooling & Electric"
+        ],
+        "claude": [
+          "Denver Plumbers",
+          "My Denver Plumber",
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "gemini": [
+          "Applewood Plumbing Heating & Electric",
+          "Blue Sky Plumbing, Heating, Cooling & Electric",
+          "Swan Plumbing, Heating & Air of Denver"
+        ],
+        "ai_overviews": [
+          "Applewood Plumbing Heating & Electric",
+          "Blue Sky Plumbing, Heating, Cooling & Electric",
+          "Brothers Plumbing, Heating & Electric",
+          "Golden West Plumbing, Heating, Air Conditioning, and Electrical",
+          "Hyper Flow Service",
+          "My Denver Plumber",
+          "Plumbers Near Me LLC",
+          "Speed plumbing"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Denver, CO",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Bowman Law, LLC",
+        "Gendelman Klimas Edwards Ltd.",
+        "Holland & Hart LLP",
+        "Ireland Stapleton Pryor & Pascoe, PC",
+        "Ogborn Mihm, LLP",
+        "Robinson & Henry P.C.",
+        "The Wilhite Law Firm",
+        "Troxel Fitch, LLC",
+        "Wheeler Trigg O'Donnell LLP"
+      ],
+      "namedLoose": [
+        "Bachus & Schanker, Personal Injury Lawyers | Denver Office",
+        "Bowman Law, LLC",
+        "CO Trial Lawyers",
+        "Cohen Trial - Business Attorneys",
+        "Colorado Legal Defense Group",
+        "Denver Accident Attorneys - Rosenthal Injury Law",
+        "Denver Personal Injury Lawyers®",
+        "Frank Azar Car & Truck Accident Lawyers - Denver, Colorado",
+        "Gendelman Klimas Edwards Ltd.",
+        "Holland & Hart LLP",
+        "Ireland Stapleton Pryor & Pascoe, PC",
+        "Kendrick Family Legal Solutions, LLC",
+        "Law One",
+        "Morgan & Morgan",
+        "Ogborn Mihm, LLP",
+        "Right Law Group - Denver Criminal Defense Attorneys & DUI Lawyer",
+        "Robinson & Henry P.C.",
+        "Taft Stettinius & Hollister LLP (formerly Sherman & Howard L.L.C.)",
+        "The Litigation Boutique LLC",
+        "The Wilhite Law Firm",
+        "Troxel Fitch, LLC",
+        "Wheeler Trigg O'Donnell LLP",
+        "Zaner Law Personal Injury and Car Accident Attorneys"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Holland & Hart LLP"
+        ],
+        "claude": [],
+        "gemini": [
+          "Ireland Stapleton Pryor & Pascoe, PC",
+          "Ogborn Mihm, LLP",
+          "Robinson & Henry P.C."
+        ],
+        "ai_overviews": [
+          "Bowman Law, LLC",
+          "Gendelman Klimas Edwards Ltd.",
+          "Holland & Hart LLP",
+          "Robinson & Henry P.C.",
+          "The Wilhite Law Firm",
+          "Troxel Fitch, LLC",
+          "Wheeler Trigg O'Donnell LLP"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Denver, CO",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Deseo Salon & BlowDry",
+        "Goldie x Bob Hair Salon",
+        "Let Em Have It Salon ✂",
+        "Matthew Morris Salon and Skincare - Broadway",
+        "Salon Lofts",
+        "Salon Thirty Eight",
+        "Studio: A Collective Of Stylists",
+        "The Organic Salon Denver",
+        "The Station Hair Studio ✂"
+      ],
+      "namedLoose": [
+        "Best Men's Cuts",
+        "Deseo Salon & BlowDry",
+        "Elsewhere Salon - Luxury Hair Extensions and Hair Color Experts",
+        "Goldie x Bob Hair Salon",
+        "Johnathan Doria Hair LLC - Barber and Men’s cuts also Salon services color",
+        "Let Em Have It Salon ✂",
+        "Matthew Morris Salon and Skincare - Broadway",
+        "Native Barber Salon",
+        "On Point Beauty Bar/Vicious Tresses",
+        "Onyx and Co Salon ✂",
+        "Root & Shadow",
+        "Salon Lofts",
+        "Salon Thirty Eight",
+        "Studio: A Collective Of Stylists",
+        "Techniques Hair Shop",
+        "The Organic Salon Denver",
+        "The Parlour Lower Downtown",
+        "The Station Hair Studio ✂",
+        "Three Cutters Capitol Hill",
+        "Vibe Salon Denver RiNo ✂"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [],
+        "claude": [
+          "Salon Lofts"
+        ],
+        "gemini": [],
+        "ai_overviews": [
+          "Deseo Salon & BlowDry",
+          "Goldie x Bob Hair Salon",
+          "Let Em Have It Salon ✂",
+          "Matthew Morris Salon and Skincare - Broadway",
+          "Salon Thirty Eight",
+          "Studio: A Collective Of Stylists",
+          "The Organic Salon Denver",
+          "The Station Hair Studio ✂"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Portland, OR",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Belmont Family Dentistry",
+        "Bling Dental",
+        "City Dental",
+        "Laurelwood Dental",
+        "Mint Dental Works",
+        "Portland Dental",
+        "Portland Modern Dentistry",
+        "Rose City Dental Care",
+        "Timber Dental",
+        "West End Dental"
+      ],
+      "namedLoose": [
+        "Advanced Dental Arts NW",
+        "Belmont Family Dentistry",
+        "Best Dental Smiles",
+        "Bling Dental",
+        "Centerport Cosmetic & Implant Dentistry",
+        "City Dental",
+        "Columbia Square Dental",
+        "Delta Dental of Oregon",
+        "Downtown Dental Associates",
+        "Dr. Benjamin Wilson Dental Care – Portland 24 Hours",
+        "East Portland Dental Center",
+        "Family Dental Health",
+        "Fox Kids Dentistry & Orthodontics",
+        "Friendly Smiles Dental Group",
+        "Gentle Dental Downtown Portland",
+        "Laurelhurst Dentistry - Portland",
+        "Laurelwood Dental",
+        "Medical Dental Building",
+        "Mint Dental Works",
+        "Mintie Family Dentistry",
+        "Moda Health Solutions",
+        "Northwest Portland Dental : Portland Dentist",
+        "PDX Center for Dentistry",
+        "Portland Dental",
+        "Portland Dental Smiles",
+        "Portland Modern Dentistry",
+        "Rose City Dental Care",
+        "Timber Dental",
+        "Timber Dental Downtown",
+        "Timber Dental East Burnside",
+        "West End Dental"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "City Dental",
+          "Portland Dental",
+          "Portland Modern Dentistry",
+          "Rose City Dental Care",
+          "West End Dental"
+        ],
+        "claude": [
+          "Portland Dental"
+        ],
+        "gemini": [
+          "City Dental",
+          "Portland Dental",
+          "Portland Modern Dentistry",
+          "Rose City Dental Care"
+        ],
+        "ai_overviews": [
+          "Belmont Family Dentistry",
+          "Bling Dental",
+          "Laurelwood Dental",
+          "Mint Dental Works",
+          "Portland Dental",
+          "Timber Dental",
+          "West End Dental"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Portland, OR",
+      "rosterSize": 97,
+      "namedStrict": [
+        "3 Mountains Home Services",
+        "Black Cat Plumbing",
+        "Cornel's Plumbing, Heating & Air Conditioning",
+        "Crown Plumbing",
+        "Lovett Inc.",
+        "Meticulous Plumbing",
+        "Pacific Crest Plumbing",
+        "Perfect Service Plumbing and Drain Cleaning",
+        "Plumbing and Sewer Renewal Specialists",
+        "Portland Plumbing Plus",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Service Plus Plumbing"
+      ],
+      "namedLoose": [
+        "3 Mountains Home Services",
+        "All In One Plumbing Inc",
+        "American Backflow and Plumbing Services Inc",
+        "BP Plumbing & Construction Services",
+        "Black Cat Plumbing",
+        "Cascade Plumbing company",
+        "Cornel's Plumbing, Heating & Air Conditioning",
+        "Crown Plumbing",
+        "D&F Plumbing, Heating and Cooling",
+        "Fast Water Heater Co",
+        "High Quality Plumbing Services Portland OR",
+        "Lovett Inc.",
+        "Meticulous Plumbing",
+        "Pacific Crest Plumbing",
+        "Perfect Service Plumbing and Drain Cleaning",
+        "Pipe Systems Plumbing",
+        "Plumber Elite Of Portland",
+        "Plumber Elite Of Portland OR",
+        "Plumber John's Services",
+        "Plumbing and Sewer Renewal Specialists",
+        "Portland Plumbing Plus",
+        "Portland Plumbing Services",
+        "Power Plumbing Company",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Ryan & Sons Plumbing",
+        "Service Plus Plumbing",
+        "Sun Glow Inc. Portland",
+        "The Unplugger"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Crown Plumbing",
+          "Pacific Crest Plumbing",
+          "Portland Plumbing Plus",
+          "Roto-Rooter Plumbing & Water Cleanup",
+          "Service Plus Plumbing"
+        ],
+        "claude": [],
+        "gemini": [
+          "Meticulous Plumbing"
+        ],
+        "ai_overviews": [
+          "3 Mountains Home Services",
+          "Black Cat Plumbing",
+          "Cornel's Plumbing, Heating & Air Conditioning",
+          "Lovett Inc.",
+          "Meticulous Plumbing",
+          "Perfect Service Plumbing and Drain Cleaning",
+          "Plumbing and Sewer Renewal Specialists",
+          "Service Plus Plumbing"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Portland, OR",
+      "rosterSize": 92,
+      "namedStrict": [
+        "24 Hour Fitness",
+        "Anytime Fitness",
+        "Hollywood Fitness",
+        "Hyatt Strength + Wellness",
+        "Knot Springs",
+        "LA Fitness",
+        "Lloyd Athletic Club",
+        "Loprinzi's Gym",
+        "Me Fitness Studios",
+        "Multnomah Athletic Club",
+        "Orangetheory Fitness",
+        "Peak Performance - NE Portland Gym",
+        "Planet Fitness",
+        "Portland City Boxing",
+        "Strength Union | Portland Gym"
+      ],
+      "namedLoose": [
+        "24 Hour Fitness",
+        "All Bodies Strong",
+        "Anytime Fitness",
+        "Evolution Healthcare and Fitness",
+        "Fuel Yoga Workouts",
+        "Hollywood Fitness",
+        "Hyatt Strength + Wellness",
+        "Knot Springs",
+        "LA Fitness",
+        "Lloyd Athletic Club",
+        "Lloyd Athletic Club Personal Training",
+        "Loprinzi's Gym",
+        "MUV Fitness SE Portland",
+        "Me Fitness Studios",
+        "Movement Portland",
+        "Multnomah Athletic Club",
+        "Orangetheory Fitness",
+        "Pacific Crest Community Fitness",
+        "Peak Performance - N Portland Gym",
+        "Peak Performance - NE Portland Gym",
+        "Planet Fitness",
+        "Portland City Boxing",
+        "ReInvent Strength Training Center",
+        "Revivewell Studio",
+        "Skyhook Bouldering",
+        "Snap Fitness Portland-Sellwood",
+        "Strength Union | Portland Gym",
+        "StrongerU Kettlebell, Barbell, & Bodyweight",
+        "The Bar Method Portland - Pearl District",
+        "The Circuit Bouldering Gym NE",
+        "United Athletic Club - Eastside",
+        "United Athletic Club - Sellwood",
+        "VC Crossfit | fitness for everybody."
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "24 Hour Fitness",
+          "Anytime Fitness",
+          "LA Fitness",
+          "Lloyd Athletic Club",
+          "Orangetheory Fitness",
+          "Planet Fitness"
+        ],
+        "claude": [
+          "24 Hour Fitness",
+          "Anytime Fitness",
+          "Hollywood Fitness",
+          "LA Fitness",
+          "Multnomah Athletic Club",
+          "Orangetheory Fitness"
+        ],
+        "gemini": [
+          "24 Hour Fitness",
+          "Knot Springs",
+          "Lloyd Athletic Club",
+          "Me Fitness Studios",
+          "Multnomah Athletic Club",
+          "Portland City Boxing"
+        ],
+        "ai_overviews": [
+          "Hollywood Fitness",
+          "Hyatt Strength + Wellness",
+          "Knot Springs",
+          "Lloyd Athletic Club",
+          "Loprinzi's Gym",
+          "Peak Performance - NE Portland Gym",
+          "Strength Union | Portland Gym"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Portland, OR",
+      "rosterSize": 93,
+      "namedStrict": [
+        "BEST Coffee",
+        "Barista",
+        "Cadejo Coffee",
+        "Case Study Coffee Roasters",
+        "Coava Coffee Roasters",
+        "Courier Coffee",
+        "Good Coffee",
+        "Less and more coffee",
+        "Never Coffee",
+        "Nossa Familia Coffee",
+        "PDX Coffee Club",
+        "Stumptown Coffee Roasters",
+        "Water Avenue Coffee"
+      ],
+      "namedLoose": [
+        "All Your Heart Coffee",
+        "BEST Coffee",
+        "Barista",
+        "COTTA",
+        "Cadejo Coffee",
+        "Case Study Coffee Roasters",
+        "Coava Coffee Roasters",
+        "Courier Coffee",
+        "Good Coffee",
+        "Honey Latte Cafe",
+        "Less and More Coffee ii",
+        "Less and more coffee",
+        "Lotus & Bean Espresso Bar",
+        "Never Coffee",
+        "Nossa Familia Coffee",
+        "PDX Coffee Club",
+        "Stumptown Coffee Roasters",
+        "Water Avenue Coffee"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "BEST Coffee",
+          "Barista",
+          "Coava Coffee Roasters",
+          "Good Coffee",
+          "Never Coffee",
+          "Nossa Familia Coffee",
+          "Stumptown Coffee Roasters",
+          "Water Avenue Coffee"
+        ],
+        "claude": [
+          "Barista",
+          "Coava Coffee Roasters",
+          "Courier Coffee",
+          "Stumptown Coffee Roasters",
+          "Water Avenue Coffee"
+        ],
+        "gemini": [
+          "BEST Coffee",
+          "Coava Coffee Roasters",
+          "Good Coffee",
+          "Never Coffee",
+          "Stumptown Coffee Roasters"
+        ],
+        "ai_overviews": [
+          "BEST Coffee",
+          "Barista",
+          "Cadejo Coffee",
+          "Case Study Coffee Roasters",
+          "Coava Coffee Roasters",
+          "Less and more coffee",
+          "PDX Coffee Club",
+          "Stumptown Coffee Roasters"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Portland, OR",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Bullivant Houser Bailey PC",
+        "D'Amore Law Group",
+        "Hart Wagner LLP",
+        "Johnston Law Firm",
+        "Jordan Ramis PC",
+        "Law Offices of Jon Friedman",
+        "Lewis Brisbois Bisgaard & Smith, LLP",
+        "Markowitz Herbold PC",
+        "McKinley Irvin",
+        "Schwabe",
+        "Schwabe, Williamson & Wyatt",
+        "Stoel Rives LLP",
+        "Tonkon Torp LLP"
+      ],
+      "namedLoose": [
+        "Bridge City Law Injury Accident & Injury Lawyers",
+        "Bullivant Houser Bailey PC",
+        "D'Amore Law Group",
+        "HKM Employment Attorneys LLP",
+        "Hart Wagner LLP",
+        "Johnston Law Firm",
+        "Jordan Ramis PC",
+        "Law Offices of Jon Friedman",
+        "Lewis Brisbois Bisgaard & Smith, LLP",
+        "MB Law Group, LLP",
+        "Markowitz Herbold PC",
+        "McKinley Irvin",
+        "NW Injury Law Center - Portland",
+        "Oregon Employment Law",
+        "Schwabe",
+        "Schwabe, Williamson & Wyatt",
+        "Stoel Rives LLP",
+        "Tonkon Torp LLP"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Bullivant Houser Bailey PC",
+          "Hart Wagner LLP",
+          "Jordan Ramis PC",
+          "Markowitz Herbold PC",
+          "Schwabe",
+          "Schwabe, Williamson & Wyatt",
+          "Stoel Rives LLP",
+          "Tonkon Torp LLP"
+        ],
+        "claude": [
+          "Schwabe",
+          "Schwabe, Williamson & Wyatt",
+          "Stoel Rives LLP",
+          "Tonkon Torp LLP"
+        ],
+        "gemini": [
+          "D'Amore Law Group",
+          "Lewis Brisbois Bisgaard & Smith, LLP",
+          "McKinley Irvin",
+          "Stoel Rives LLP",
+          "Tonkon Torp LLP"
+        ],
+        "ai_overviews": [
+          "D'Amore Law Group",
+          "Johnston Law Firm",
+          "Law Offices of Jon Friedman",
+          "Markowitz Herbold PC",
+          "Schwabe",
+          "Schwabe, Williamson & Wyatt",
+          "Stoel Rives LLP",
+          "Tonkon Torp LLP"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Nashville, TN",
+      "rosterSize": 100,
+      "namedStrict": [
+        "12 South Dental Studio",
+        "Dentistry of Nashville",
+        "Green Hills Dental Center",
+        "Green Hills Family Dentistry",
+        "Gulch Dental Studio",
+        "Iroquois Dentistry",
+        "Jody Jones, DDS",
+        "Nashville Dental Center",
+        "Nations Dental Studio",
+        "Smiles Up Dentistry",
+        "Vitality Dental"
+      ],
+      "namedLoose": [
+        "12 South Dental Studio",
+        "Advanced Dental Health Center",
+        "American Dental Center",
+        "Andrea M. Clegg, DMD",
+        "Belle Meade Family Dentistry - Nashville, TN",
+        "Berry Hill Dental Group",
+        "BiTE Dentistry | Dr. Cristin Lewis, Nashville Root-Cause Airway & Whole Body Health Wellness",
+        "David Wickness, DMD- Nashville Cosmetic Dentist",
+        "Dental Design Studios",
+        "Dental Services Nashville",
+        "Dentistry of Nashville",
+        "Downtown Dental Nashville",
+        "Duciell Dental Care",
+        "East Nashville Family Dentistry",
+        "Emergency Dental of Nashville",
+        "Family Dental Health of Belle Meade",
+        "Green Hills Dental Center",
+        "Green Hills Family Dentistry",
+        "Gulch Dental Studio",
+        "Iroquois Dentistry",
+        "Jody Jones, DDS",
+        "Joseph P. Wiggs DDS",
+        "Midtown Smiles",
+        "Music City Dental: Family, Cosmetic, & Implant Dentistry PLLC",
+        "My New Smile Dental",
+        "Nashville Dental Center",
+        "Nations Dental Studio",
+        "Smile On Nashville",
+        "Smiles Up Dentistry",
+        "The Hills Dentistry Nashville",
+        "Urgent Dental Services",
+        "Vitality Dental",
+        "West End Smiles",
+        "West Nashville Smiles Dentistry",
+        "the family dentist place"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Green Hills Dental Center",
+          "Green Hills Family Dentistry",
+          "Nashville Dental Center"
+        ],
+        "claude": [
+          "Dentistry of Nashville",
+          "Green Hills Family Dentistry"
+        ],
+        "gemini": [
+          "Green Hills Dental Center",
+          "Gulch Dental Studio",
+          "Nashville Dental Center"
+        ],
+        "ai_overviews": [
+          "12 South Dental Studio",
+          "Dentistry of Nashville",
+          "Gulch Dental Studio",
+          "Iroquois Dentistry",
+          "Jody Jones, DDS",
+          "Nations Dental Studio",
+          "Smiles Up Dentistry",
+          "Vitality Dental"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Portland, OR",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Annastasia Salon",
+        "Appel Nouveau Salon",
+        "Carbon Salon",
+        "Chameleon Salon",
+        "Enjoy Co. Hair Studio | Portland, OR",
+        "Ginger & Maude Hair Salon",
+        "Propaganda the Salon",
+        "Salon Beck - Portland, OR"
+      ],
+      "namedLoose": [
+        "A-List",
+        "Annastasia Salon",
+        "Appel Nouveau Salon",
+        "Carbon Salon",
+        "Chameleon Salon",
+        "Clubhouse Barbershop",
+        "Dan Martin Hair On Broadway",
+        "Enjoy Co. Hair Studio | Portland, OR",
+        "Eurocuts - Boutique Beauty Salon in the Heart of Portland",
+        "Ginger & Maude Hair Salon",
+        "Hair M Downtown",
+        "L&M Hair Lounge",
+        "Me Hair Design",
+        "Propaganda the Salon",
+        "Pulse Salon & Day Spa",
+        "Salon Beck - Portland, OR",
+        "THAIRAPY PDX",
+        "Two",
+        "Union Barber Co"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [],
+        "claude": [],
+        "gemini": [],
+        "ai_overviews": [
+          "Annastasia Salon",
+          "Appel Nouveau Salon",
+          "Carbon Salon",
+          "Chameleon Salon",
+          "Enjoy Co. Hair Studio | Portland, OR",
+          "Ginger & Maude Hair Salon",
+          "Propaganda the Salon",
+          "Salon Beck - Portland, OR"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Nashville, TN",
+      "rosterSize": 95,
+      "namedStrict": [
+        "100 Percent Plumbing",
+        "615 Plumbing",
+        "Doctor Drips Plumbing - Nashville",
+        "Green Hills Plumbing",
+        "Hiller Plumbing, Heating, Cooling & Electrical",
+        "Hoffmann Brothers",
+        "Lee Company",
+        "Mr. Rooter Plumbing of South Nashville",
+        "Nashville Plumbing Services",
+        "Parthenon Plumbing, Heating, & AC Repair",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Smooth Saling Plumbing & Water Heater Replacement"
+      ],
+      "namedLoose": [
+        "100 Percent Plumbing",
+        "24/7 Emergency Plumber Nashville",
+        "615 Plumbing",
+        "Avantel Plumber of Nashville TN",
+        "Benjamin Franklin the Punctual",
+        "Busy Bee Plumbing, Heating, & Air Conditioning",
+        "Choice Water Heaters",
+        "Doctor Drips Plumbing - Nashville",
+        "Drain Doctor LLC",
+        "Drain Guy LLC",
+        "Express Services Plumbing",
+        "Green Group Plumbing of Nashville",
+        "Green Hills Plumbing",
+        "Hiller Plumbing, Heating, Cooling & Electrical",
+        "Hoffmann Brothers",
+        "Kenny Pipe & Supply, Inc.",
+        "Lee Company",
+        "Mr Good Plumber",
+        "Mr Rooter Plumbers",
+        "Mr. Rooter Plumbing of South Nashville",
+        "Nashville HVAC - Heating & Air Conditioning LLC",
+        "Nashville Plumbing & Sewer",
+        "Nashville Plumbing Services",
+        "Nashville Plumbing and Drain Services",
+        "No Problem Plumbing",
+        "Parthenon Plumbing, Heating, & AC Repair",
+        "Pioneer Home Services",
+        "Responsive Plumbing",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Service Experts Nashville",
+        "Smooth Saling Plumbing & Water Heater Replacement"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "615 Plumbing",
+          "Hiller Plumbing, Heating, Cooling & Electrical",
+          "Hoffmann Brothers",
+          "Lee Company",
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "claude": [],
+        "gemini": [
+          "Green Hills Plumbing"
+        ],
+        "ai_overviews": [
+          "100 Percent Plumbing",
+          "Doctor Drips Plumbing - Nashville",
+          "Hiller Plumbing, Heating, Cooling & Electrical",
+          "Hoffmann Brothers",
+          "Mr. Rooter Plumbing of South Nashville",
+          "Nashville Plumbing Services",
+          "Parthenon Plumbing, Heating, & AC Repair",
+          "Smooth Saling Plumbing & Water Heater Replacement"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Nashville, TN",
+      "rosterSize": 97,
+      "namedStrict": [
+        "Anytime Fitness",
+        "Downtown YMCA",
+        "Fit Factory Nashville",
+        "Gym 5",
+        "Orangetheory Fitness",
+        "Planet Fitness",
+        "Planet fitness",
+        "Pro Vita",
+        "QNTM Fit Life",
+        "Rumble Boxing"
+      ],
+      "namedLoose": [
+        "Anytime Fitness",
+        "Boco Fit Executive Wellness",
+        "Carbon Performance | Nashville",
+        "Climb Nashville West",
+        "Crossfit East Nashville",
+        "Crunch Fitness - Bell Road",
+        "D1 Training West Nashville",
+        "Downtown YMCA",
+        "East Park Community Center",
+        "F45 Training East Nashville",
+        "Fit Factory Nashville",
+        "GetFit Anytime",
+        "Gym 5",
+        "Iconix Fitness Nashville",
+        "Iron Tribe Fitness - Belmont - Gym, Personal Training",
+        "M4 Performance | Strength and Conditioning",
+        "Nashville Performance Club",
+        "Nashville Street Workout Park",
+        "Orangetheory Fitness",
+        "Physical Fitness Program Nashville, TN | Best You, LLC",
+        "Planet Fitness",
+        "Pro Vita",
+        "QNTM Fit Life",
+        "Rumble Boxing",
+        "The Format Fitness Nashville",
+        "The Yard Gym West Nashville",
+        "TruFit Athletic Clubs - Madison"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Anytime Fitness",
+          "Downtown YMCA",
+          "Orangetheory Fitness",
+          "Planet Fitness",
+          "Planet fitness",
+          "Pro Vita"
+        ],
+        "claude": [
+          "Anytime Fitness",
+          "Orangetheory Fitness",
+          "Planet Fitness",
+          "Planet fitness",
+          "Rumble Boxing"
+        ],
+        "gemini": [
+          "Pro Vita"
+        ],
+        "ai_overviews": [
+          "Downtown YMCA",
+          "Fit Factory Nashville",
+          "Gym 5",
+          "Pro Vita",
+          "QNTM Fit Life"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Nashville, TN",
+      "rosterSize": 96,
+      "namedStrict": [
+        "8th & Roast",
+        "Bad Ass Coffee of Hawaii",
+        "Crema Coffee Roasters",
+        "Dose Coffee",
+        "ESPRESSO BAR",
+        "Forevermore Coffee, Matcha & Goods",
+        "Frothy Monkey",
+        "Haraz Coffee House",
+        "Matryoshka Coffee",
+        "Paradeisos Coffee Company - West End",
+        "Steadfast Coffee",
+        "cafe babu"
+      ],
+      "namedLoose": [
+        "8th & Roast",
+        "Bad Ass Coffee of Hawaii",
+        "Barista Parlor W Nashville",
+        "Bongo Java East",
+        "Crema Coffee Roasters",
+        "Dose Coffee",
+        "ESPRESSO BAR",
+        "Elegy Coffee Downtown",
+        "Forevermore Coffee, Matcha & Goods",
+        "Frothy Monkey",
+        "Haraz Coffee House",
+        "Matryoshka Coffee",
+        "Paradeisos Coffee Company - West End",
+        "Steadfast Coffee",
+        "cafe babu"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Crema Coffee Roasters",
+          "Dose Coffee",
+          "Frothy Monkey"
+        ],
+        "claude": [
+          "Dose Coffee",
+          "ESPRESSO BAR",
+          "Frothy Monkey",
+          "Steadfast Coffee"
+        ],
+        "gemini": [
+          "8th & Roast",
+          "Crema Coffee Roasters",
+          "ESPRESSO BAR",
+          "Frothy Monkey"
+        ],
+        "ai_overviews": [
+          "Bad Ass Coffee of Hawaii",
+          "Crema Coffee Roasters",
+          "Dose Coffee",
+          "ESPRESSO BAR",
+          "Forevermore Coffee, Matcha & Goods",
+          "Frothy Monkey",
+          "Haraz Coffee House",
+          "Matryoshka Coffee",
+          "Paradeisos Coffee Company - West End",
+          "cafe babu"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Nashville, TN",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Bass, Berry & Sims PLC",
+        "Beasley Law Criminal Defense Attorneys",
+        "Hendley & Goodwyn, LLP",
+        "Hughes & Coleman Injury Lawyers",
+        "Labrum Law Firm",
+        "Morgan & Morgan",
+        "Ponce Law",
+        "Sherwood Boutique Litigation, PLC",
+        "The Higgins Firm"
+      ],
+      "namedLoose": [
+        "Bass, Berry & Sims PLC",
+        "Beasley Law Criminal Defense Attorneys",
+        "Bernheim Kelley Car Accident & Personal Injury Lawyers",
+        "Brothers Business Law",
+        "Byron Pugh Legal",
+        "Hall Booth Smith, P.C.",
+        "Hendley & Goodwyn, LLP",
+        "Hughes & Coleman Injury Lawyers",
+        "Johnson Law Group",
+        "Labrum Law Firm",
+        "Lewis Thomason, P.C.",
+        "Michael & Associates Criminal Defense Attorneys",
+        "Morgan & Morgan",
+        "Neal & Harwell, PLC",
+        "North, Pursell & Ramos, PLC",
+        "Ponce Law",
+        "Raybin & Weissman Personal Injury Lawyers",
+        "Ridings Law Group, P.C.",
+        "Rocky McElhaney Law Firm: Car Accident & Injury Lawyers",
+        "Sanford Heisler Sharp McKnight",
+        "Sherwood Boutique Litigation, PLC",
+        "Stites & Harbison, PLLC",
+        "Tennessee Accident Law Firm",
+        "Tennessee Law Group",
+        "The Higgins Firm"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Bass, Berry & Sims PLC"
+        ],
+        "claude": [],
+        "gemini": [
+          "Bass, Berry & Sims PLC",
+          "Morgan & Morgan",
+          "The Higgins Firm"
+        ],
+        "ai_overviews": [
+          "Bass, Berry & Sims PLC",
+          "Beasley Law Criminal Defense Attorneys",
+          "Hendley & Goodwyn, LLP",
+          "Hughes & Coleman Injury Lawyers",
+          "Labrum Law Firm",
+          "Morgan & Morgan",
+          "Ponce Law",
+          "Sherwood Boutique Litigation, PLC"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Columbus, OH",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Bauer Dental Group",
+        "Capital City Dental",
+        "Creative Smiles",
+        "Dennison Dental Care",
+        "Grandview Dental Care",
+        "Nationwide Children's Hospital Dental Clinic",
+        "Ohio Cosmetic Dentists",
+        "The Dental Center at Easton",
+        "Trillium Dental",
+        "Village Dental"
+      ],
+      "namedLoose": [
+        "4th St Dental Studio",
+        "614 Dental group",
+        "Advanced Dental Wellness",
+        "Aspen Dental - Columbus, OH (High Street)",
+        "Bauer Dental Group",
+        "Capital City Dental",
+        "Columbus City Dental Clinic",
+        "Columbus Orthodontic Center",
+        "Creative Smiles",
+        "Dennison Dental Care",
+        "Donald F Bowen DDS & Associates Inc",
+        "Emergency Dental of Columbus",
+        "Gentle Family Dental Care",
+        "Grandview Dental Care",
+        "Merion Village Dental",
+        "Nationwide Children's Hospital Dental Clinic",
+        "OSU Dental Emergency Care Clinic",
+        "Ohio Cosmetic Dentists",
+        "Ohio State Dental Center",
+        "Polaris Dental Care",
+        "Schindler Smile Studio",
+        "The Dental Center at Easton",
+        "The Smile Method: Upper Arlington/Riverside Hospital",
+        "Third Street Dental",
+        "Trillium Dental",
+        "US Dental and Medical Care",
+        "Village Dental"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Grandview Dental Care",
+          "Nationwide Children's Hospital Dental Clinic"
+        ],
+        "claude": [
+          "Village Dental"
+        ],
+        "gemini": [
+          "Creative Smiles",
+          "Grandview Dental Care",
+          "The Dental Center at Easton"
+        ],
+        "ai_overviews": [
+          "Bauer Dental Group",
+          "Capital City Dental",
+          "Dennison Dental Care",
+          "Grandview Dental Care",
+          "Ohio Cosmetic Dentists",
+          "Trillium Dental"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Nashville, TN",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Dandelion Salon",
+        "Dry House",
+        "Element Salon Elliston",
+        "Local Honey",
+        "M. Hair Studio",
+        "Oxana Salon",
+        "Rodney Mitchell Salon",
+        "Style House Salon",
+        "The Hideout Salon and Lounge",
+        "True Blue Salon",
+        "White Cactus Salon"
+      ],
+      "namedLoose": [
+        "Craft Hair + Co.",
+        "Dandelion Salon",
+        "Dry House",
+        "Drybar - Nashville at Capitol View",
+        "Element Salon Elliston",
+        "Element Salon Green Hills",
+        "Glam Up",
+        "Harper James Salon",
+        "Local Honey",
+        "Local Honey - East",
+        "M. Hair Studio",
+        "One10 Beauty House",
+        "Oxana Salon",
+        "Pink Soda Blow Dry Bar Nashville",
+        "Roc and Roe Salon",
+        "Rodney Mitchell Salon",
+        "Salons by JC Nashville",
+        "Sisters Collective",
+        "Style House Salon",
+        "Surreal Beauty Nashvillle | Barber | Blowout Bar",
+        "THE CUT Nashville Hair Salon",
+        "The Beauty Parlour",
+        "The Blowout Co. Gulch",
+        "The Hideout Salon and Lounge",
+        "True Blue Salon",
+        "White Cactus Salon"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Dry House",
+          "Local Honey",
+          "White Cactus Salon"
+        ],
+        "claude": [],
+        "gemini": [
+          "Local Honey"
+        ],
+        "ai_overviews": [
+          "Dandelion Salon",
+          "Element Salon Elliston",
+          "Local Honey",
+          "M. Hair Studio",
+          "Oxana Salon",
+          "Rodney Mitchell Salon",
+          "Style House Salon",
+          "The Hideout Salon and Lounge",
+          "True Blue Salon"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Columbus, OH",
+      "rosterSize": 96,
+      "namedStrict": [
+        "1-Tom-Plumber",
+        "Benjamin Franklin Plumbing of Columbus",
+        "Eco Plumbers, Electricians, and HVAC Technicians",
+        "Five Star Columbus Plumbing",
+        "Mr. Rooter Plumbing of Columbus",
+        "Parson Plumbing and Drains",
+        "Plumbing & Drain Professionals",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Roto-Rooter Plumbing & Water Cleanup of Columbus",
+        "Safe Electric and Plumbing",
+        "Shorty's Plumbing LLC",
+        "The Local Plumber LLC",
+        "The Waterworks Plumbing, Drain, Heating & Cooling"
+      ],
+      "namedLoose": [
+        "1-Tom-Plumber",
+        "Atlas Butler Heating, Cooling & Plumbing",
+        "Benjamin Franklin Plumbing of Columbus",
+        "Columbus Gas Pro",
+        "Columbus Plumbing Company",
+        "DrainMaster Drain Cleaning & Sewer Line Repair",
+        "Drains N Pipes, LLC",
+        "Eco Plumbers, Electricians, and HVAC Technicians",
+        "Five Star Columbus Plumbing",
+        "G&M Plumbing & Heating, Inc.",
+        "Hydro Ohio Plumbing LLC",
+        "Mr. Rooter Plumbing of Columbus",
+        "Mr. and Mrs. Plumbing Services, LLC",
+        "Muetzel Plumbing, Heating & Cooling",
+        "Ohio Heating",
+        "Ohio Water Heaters",
+        "Ohio plumbing, home repair, and maintenance",
+        "Parson Plumbing and Drains",
+        "Plumbing & Drain Professionals",
+        "Plumbing One, LLC",
+        "R & T Yoder Plumbing, Inc - Columbus",
+        "Rescue Rooter",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Roto-Rooter Plumbing & Water Cleanup of Columbus",
+        "Safe Electric and Plumbing",
+        "Service Experts Columbus",
+        "Shorty's Plumbing LLC",
+        "T&H Plumbing Services, Inc",
+        "The Local Plumber LLC",
+        "The Waterworks Plumbing, Drain, Heating & Cooling"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Benjamin Franklin Plumbing of Columbus",
+          "Mr. Rooter Plumbing of Columbus",
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "claude": [
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "gemini": [
+          "Five Star Columbus Plumbing"
+        ],
+        "ai_overviews": [
+          "1-Tom-Plumber",
+          "Eco Plumbers, Electricians, and HVAC Technicians",
+          "Parson Plumbing and Drains",
+          "Plumbing & Drain Professionals",
+          "Roto-Rooter Plumbing & Water Cleanup",
+          "Roto-Rooter Plumbing & Water Cleanup of Columbus",
+          "Safe Electric and Plumbing",
+          "Shorty's Plumbing LLC",
+          "The Local Plumber LLC",
+          "The Waterworks Plumbing, Drain, Heating & Cooling"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Columbus, OH",
+      "rosterSize": 96,
+      "namedStrict": [
+        "Arena District Athletic Club",
+        "Beyond Limits Training",
+        "LA Fitness",
+        "Life Time",
+        "Park",
+        "Planet Fitness",
+        "StudioTorch - Franklinton",
+        "THE ARMORY",
+        "The Athletic Club of Columbus",
+        "The Athletic Cos. Italian Village",
+        "The Fitness Loft",
+        "The Pro's Gym",
+        "YMCA"
+      ],
+      "namedLoose": [
+        "Arena District Athletic Club",
+        "Axon Group and Personal Training",
+        "Beyond Limits Training",
+        "Blackburn Community Center",
+        "Crunch Fitness - Columbus, OH",
+        "Fit Club - Home of CrossFit 614",
+        "GRIT City Gym",
+        "Grandview Pro Fitness",
+        "Great view of Columbus skyline downtown. Gym , two parking spots.",
+        "LA Fitness",
+        "Life Time",
+        "Ohio Strength - Home of CrossFit Italian Village",
+        "One Columbus Center",
+        "Park",
+        "Planet Fitness",
+        "Snap Fitness Short North 24/7",
+        "StudioTorch - Franklinton",
+        "StudioTorch - Grandview",
+        "THE ARMORY",
+        "The Active",
+        "The Athletic Club of Columbus",
+        "The Athletic Cos. Italian Village",
+        "The Fitness Loft",
+        "The Pro's Gym",
+        "The Spot Athletics - Grandview",
+        "The Warehouse Gym & Fitness Personal Training",
+        "UA Fitness | Upper Arlington Gym",
+        "United Strength",
+        "Upper Arlington Fitness",
+        "YMCA"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "LA Fitness",
+          "Life Time",
+          "Park",
+          "Planet Fitness",
+          "The Athletic Club of Columbus",
+          "YMCA"
+        ],
+        "claude": [
+          "LA Fitness",
+          "Life Time",
+          "Planet Fitness",
+          "YMCA"
+        ],
+        "gemini": [
+          "Beyond Limits Training",
+          "Park",
+          "The Athletic Club of Columbus",
+          "The Fitness Loft"
+        ],
+        "ai_overviews": [
+          "Arena District Athletic Club",
+          "Life Time",
+          "Park",
+          "Planet Fitness",
+          "StudioTorch - Franklinton",
+          "THE ARMORY",
+          "The Athletic Club of Columbus",
+          "The Athletic Cos. Italian Village",
+          "The Fitness Loft",
+          "The Pro's Gym",
+          "YMCA"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Columbus, OH",
+      "rosterSize": 97,
+      "namedStrict": [
+        "CO.LAB Hair Studio",
+        "Lucky 13 Salon Collective",
+        "M Salon",
+        "Phia Salon",
+        "Philosophi Salon",
+        "Rendezvous Hair Salon",
+        "Salon Lofts",
+        "The Blowout Bar"
+      ],
+      "namedLoose": [
+        "A Touch Of Beauty Salon Barber Spa LLC",
+        "CO.LAB Hair Studio",
+        "City Cut Salon & Day Spa 城市髮廊",
+        "Cut N Blow Salon",
+        "Evan Joseph Salon",
+        "First & Park Beauty",
+        "Loc’D Up Hair Services",
+        "Lucky 13 Salon Collective",
+        "M Salon",
+        "Nail Styling Salon",
+        "PENZONE Salon + Spa Short North",
+        "PENZONE Salon German Village",
+        "Phia Salon",
+        "Philosophi Salon",
+        "Rendezvous Hair Salon",
+        "Salon Atelier",
+        "Salon Lofts",
+        "Studio 33 Salon and Spa",
+        "Taylor & Co Salon",
+        "The Blowout Bar",
+        "The Garrison Barbershop",
+        "Virtue Vegan Salon- Brewery District"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "M Salon",
+          "Rendezvous Hair Salon",
+          "Salon Lofts",
+          "The Blowout Bar"
+        ],
+        "claude": [
+          "Salon Lofts"
+        ],
+        "gemini": [
+          "The Blowout Bar"
+        ],
+        "ai_overviews": [
+          "CO.LAB Hair Studio",
+          "Lucky 13 Salon Collective",
+          "Phia Salon",
+          "Philosophi Salon",
+          "Rendezvous Hair Salon"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Raleigh, NC",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Falls Pointe Dentistry",
+        "Family Dental Care",
+        "Fusion Dental Care",
+        "Kind Smiles",
+        "Lane & Associates Family Dentistry",
+        "Midtown Dental",
+        "North Hills Dentistry",
+        "Raleigh Dental",
+        "Raleigh Dental Arts",
+        "Raleigh Family Dentistry",
+        "Renaissance Dental Center",
+        "Russo Dentistry",
+        "Sunrise Dental"
+      ],
+      "namedLoose": [
+        "Capital Dental Care",
+        "Carolina Dental Arts of Glenwood South",
+        "City of Oaks Dental",
+        "Colson Dental Group",
+        "Dentist Raleigh - Blue Ridge Dental Care",
+        "Dr. Ying Zhao",
+        "Emergency Dentist of Raleigh",
+        "Falls Pointe Dentistry",
+        "Family Dental Care",
+        "Fusion Dental Care",
+        "Gentle Smiles of Raleigh",
+        "Hayes Barton Dentistry | Charlotte C. Hunt DDS, PLLC",
+        "Kind Smiles",
+        "Lane & Associates Family Dentistry",
+        "Midtown Dental",
+        "Midtown Family Dentistry",
+        "NC Emergency Dentistry",
+        "North Hills Dentistry",
+        "North Raleigh Dental Studio",
+        "North Ridge Family and Cosmetic Dentistry",
+        "Raleigh Comprehensive and Cosmetic Dentistry",
+        "Raleigh Dental",
+        "Raleigh Dental Arts",
+        "Raleigh Family Dentistry",
+        "Raleigh Implant and Family Dentistry",
+        "Renaissance Dental Center",
+        "Riccobene Associates Family Dentistry - Raleigh Falls, NC",
+        "Russo Dentistry",
+        "Sedation Dental Care at Raleigh Smile Center",
+        "Six Forks Family Dentistry",
+        "Smile Starters Raleigh",
+        "Smiles at Glenwood",
+        "Sunrise Dental",
+        "Triangle Dentistry: Smith, Tart & Associates",
+        "Village Dental - North Raleigh",
+        "Village Dental - Olde Raleigh",
+        "Wake Smiles",
+        "Your Raleigh Dentist"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Falls Pointe Dentistry",
+          "Family Dental Care",
+          "Midtown Dental",
+          "Raleigh Dental",
+          "Raleigh Dental Arts",
+          "Raleigh Family Dentistry"
+        ],
+        "claude": [
+          "Family Dental Care",
+          "Raleigh Dental",
+          "Raleigh Dental Arts",
+          "Sunrise Dental"
+        ],
+        "gemini": [
+          "Kind Smiles",
+          "Lane & Associates Family Dentistry",
+          "Raleigh Dental",
+          "Raleigh Dental Arts"
+        ],
+        "ai_overviews": [
+          "Fusion Dental Care",
+          "Midtown Dental",
+          "North Hills Dentistry",
+          "Renaissance Dental Center",
+          "Russo Dentistry"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Columbus, OH",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Cooper Elliott",
+        "Hoffman Law",
+        "Joslyn Law Firm",
+        "Kegler Brown Hill + Ritter: Columbus",
+        "Luftman, Heck & Associates LLP",
+        "Porter Wright Morris & Arthur LLP",
+        "Shumaker, Loop & Kendrick, LLP",
+        "Taft Law",
+        "The Fitch Law Firm",
+        "Vorys, Sater, Seymour and Pease LLP"
+      ],
+      "namedLoose": [
+        "Brian G. Miller Co., LLC",
+        "Bricker Graydon Wyatt LLP | Columbus",
+        "Callinan and Wisecup Law Firm",
+        "Chester Law Group",
+        "Cooper Elliott",
+        "Cordell & Cordell | Family Law & Divorce",
+        "Hoffman Law",
+        "Joslyn Law Firm",
+        "Kegler Brown Hill + Ritter: Columbus",
+        "Kravitz, Brown & Dortch, LLC",
+        "Luftman, Heck & Associates LLP",
+        "Oliver Law Office - Columbus Personal Injury & Wrongful Death Trial Lawyers",
+        "Porter Wright Morris & Arthur LLP",
+        "Robinson Legal Group, Ltd.",
+        "Shumaker, Loop & Kendrick, LLP",
+        "Taft Law",
+        "The Baker Law Group",
+        "The Fitch Law Firm",
+        "The Law Office of Wright & Associates, LLC",
+        "The Law Offices of James M. Linehan, LPA",
+        "Vorys, Sater, Seymour and Pease LLP"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Kegler Brown Hill + Ritter: Columbus",
+          "Porter Wright Morris & Arthur LLP",
+          "Shumaker, Loop & Kendrick, LLP",
+          "Vorys, Sater, Seymour and Pease LLP"
+        ],
+        "claude": [
+          "Porter Wright Morris & Arthur LLP",
+          "Vorys, Sater, Seymour and Pease LLP"
+        ],
+        "gemini": [
+          "Luftman, Heck & Associates LLP",
+          "Porter Wright Morris & Arthur LLP",
+          "Vorys, Sater, Seymour and Pease LLP"
+        ],
+        "ai_overviews": [
+          "Cooper Elliott",
+          "Hoffman Law",
+          "Joslyn Law Firm",
+          "Luftman, Heck & Associates LLP",
+          "Taft Law",
+          "The Fitch Law Firm",
+          "Vorys, Sater, Seymour and Pease LLP"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Columbus, OH",
+      "rosterSize": 94,
+      "namedStrict": [
+        "Brioso Coffee",
+        "Callin’ Your Bluff Coffee",
+        "Fox In The Snow Cafe",
+        "Fox in the Snow Cafe",
+        "Kafe Kerouac",
+        "Koffee Paradise",
+        "Mission Coffee Co.",
+        "One Line Coffee-Short North",
+        "Qahwah House Coffee - Columbus",
+        "Ravello's Coffee",
+        "Stauf's Coffee Roasters",
+        "Stauf’s Coffee",
+        "The Roosevelt Coffeehouse"
+      ],
+      "namedLoose": [
+        "Brioso Coffee",
+        "Brioso Roastery & Coffee Bar",
+        "Callin’ Your Bluff Coffee",
+        "Crimson Cup Coffee & Tea Grandview Heights",
+        "Cure Coffee and Cocktails",
+        "Einstein Bros. Bagels",
+        "Fox in the Snow Cafe",
+        "Freedom a la Cart Café + Bakery + Catering",
+        "German Village Coffee Shop",
+        "Kafe Kerouac",
+        "Koffee Paradise",
+        "Mission Coffee Co.",
+        "One Line Coffee at Capitol Square",
+        "One Line Coffee-Franklinton",
+        "One Line Coffee-Short North",
+        "Qahwah House Coffee - Columbus",
+        "Ravello's Coffee",
+        "Soul 2 Go Cafe",
+        "Stauf's Coffee Roasters",
+        "Stauf’s Coffee",
+        "The Roosevelt Coffeehouse",
+        "Upper Cup Coffee"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Brioso Coffee",
+          "Fox In The Snow Cafe",
+          "Fox in the Snow Cafe",
+          "Mission Coffee Co.",
+          "Stauf's Coffee Roasters",
+          "Stauf’s Coffee"
+        ],
+        "claude": [
+          "Brioso Coffee",
+          "Kafe Kerouac",
+          "Stauf's Coffee Roasters",
+          "Stauf’s Coffee"
+        ],
+        "gemini": [
+          "Brioso Coffee",
+          "Fox In The Snow Cafe",
+          "Fox in the Snow Cafe",
+          "One Line Coffee-Short North",
+          "Stauf's Coffee Roasters",
+          "Stauf’s Coffee",
+          "The Roosevelt Coffeehouse"
+        ],
+        "ai_overviews": [
+          "Callin’ Your Bluff Coffee",
+          "Fox In The Snow Cafe",
+          "Fox in the Snow Cafe",
+          "Koffee Paradise",
+          "One Line Coffee-Short North",
+          "Qahwah House Coffee - Columbus",
+          "Ravello's Coffee",
+          "Stauf's Coffee Roasters",
+          "Stauf’s Coffee",
+          "The Roosevelt Coffeehouse"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Raleigh, NC",
+      "rosterSize": 97,
+      "namedStrict": [
+        "ARS / Rescue Rooter",
+        "Benjamin Franklin Plumbing of Raleigh",
+        "Matthew's Plumbing Solutions",
+        "Michael & Son Services",
+        "Midtown Plumbing,LLC",
+        "Mr. Rooter Plumbing of Raleigh",
+        "Out The Door Plumbing",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "William Parrish Plumbing",
+        "Zoom Drain"
+      ],
+      "namedLoose": [
+        "ARS / Rescue Rooter",
+        "Air Experts Heating & Cooling",
+        "Benjamin Franklin Plumbing of Raleigh",
+        "Bolton Construction & Service, LLC",
+        "CK's Plumbing & Backflow, LLC",
+        "Crossroads Plumbing and Drain",
+        "Golden Rule Plumbing Services, L.L.C",
+        "J & J’s Plumbing Services, LLC",
+        "J Plumbing Service Inc",
+        "J. R. Lane Plumbing Co.",
+        "Legacy Plumbing Company",
+        "Matthew's Plumbing Solutions",
+        "Michael & Son Services",
+        "Midtown Plumbing,LLC",
+        "Modern Plumbing and Backflow",
+        "Mr. Rooter Plumbing of Raleigh",
+        "NC Plumbing Pros",
+        "Out The Door Plumbing",
+        "Plumbing Services of Raleigh",
+        "Poole's Plumbing, Inc.",
+        "Raleigh Heating and Air",
+        "Raleigh Plumbing & Heating, Inc.",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Triangle Emergency Plumbing",
+        "William Parrish Plumbing",
+        "Yellow Dot Heating & Air Conditioning",
+        "Zoom Drain"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "ARS / Rescue Rooter",
+          "Benjamin Franklin Plumbing of Raleigh",
+          "Michael & Son Services",
+          "Mr. Rooter Plumbing of Raleigh",
+          "Roto-Rooter Plumbing & Water Cleanup",
+          "Zoom Drain"
+        ],
+        "claude": [
+          "Mr. Rooter Plumbing of Raleigh"
+        ],
+        "gemini": [
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "ai_overviews": [
+          "Matthew's Plumbing Solutions",
+          "Midtown Plumbing,LLC",
+          "Out The Door Plumbing",
+          "William Parrish Plumbing"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Raleigh, NC",
+      "rosterSize": 97,
+      "namedStrict": [
+        "Alexander Family YMCA",
+        "Anytime Fitness",
+        "Archetype Strength",
+        "Crunch Fitness - Village District",
+        "ET Fitness",
+        "Fitness Connection",
+        "LA Fitness",
+        "Life Time",
+        "O2 Fitness",
+        "Oak and Iron Fitness",
+        "Olympus Athletic Club",
+        "Planet Fitness"
+      ],
+      "namedLoose": [
+        "12th State CrossFit",
+        "74 Theory Fitness Studio",
+        "Alexander Family YMCA",
+        "Anytime Fitness",
+        "Archetype Strength",
+        "Archetype Strength Raleigh",
+        "BK Pilates Raleigh",
+        "Cirque de Vol Aerial, Yoga, Fitness & Circus Community",
+        "Crunch Fitness - Creedmoor",
+        "Crunch Fitness - Village District",
+        "ET Fitness",
+        "Fit4Life Health Clubs - Raleigh",
+        "Fitness Connection",
+        "LA Fitness",
+        "Life Time",
+        "MADabolic Raleigh",
+        "O2 Fitness",
+        "Oak City CrossFit - Gym in Raleigh, NC",
+        "Oak and Iron Fitness",
+        "Olympus Athletic Club",
+        "Planet Fitness",
+        "SERVE Wellness",
+        "Southeast Raleigh YMCA",
+        "Studio Brick",
+        "The Strength Feed"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Anytime Fitness",
+          "ET Fitness",
+          "Life Time",
+          "O2 Fitness",
+          "Planet Fitness"
+        ],
+        "claude": [
+          "ET Fitness",
+          "LA Fitness",
+          "Life Time",
+          "Planet Fitness"
+        ],
+        "gemini": [
+          "O2 Fitness"
+        ],
+        "ai_overviews": [
+          "Alexander Family YMCA",
+          "Archetype Strength",
+          "Crunch Fitness - Village District",
+          "Fitness Connection",
+          "Life Time",
+          "O2 Fitness",
+          "Oak and Iron Fitness",
+          "Olympus Athletic Club"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Raleigh, NC",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Brooks Pierce",
+        "Cotten Law Firm, PLLC",
+        "DeMent Askew Johnson & Marshall, LLP",
+        "Jackson Law",
+        "Kurtz & Blum, PLLC",
+        "Law Offices of James Scott Farrin",
+        "Matheson & Associates PLLC",
+        "Parker Poe",
+        "Poyner Spruill LLP",
+        "Saad Law",
+        "Smith Anderson",
+        "Tharrington Smith LLP",
+        "Whitley Law Firm Injury Lawyers"
+      ],
+      "namedLoose": [
+        "Brooks Pierce",
+        "Capital City Law",
+        "Cotten Law Firm, PLLC",
+        "Counsel Carolina",
+        "Cumberland Law Group, LLC",
+        "DeMent Askew Johnson & Marshall, LLP",
+        "Hiltzheimer Law Office, PLLC | Raleigh DWI Lawyer",
+        "Jackson Law",
+        "Kurtz & Blum, PLLC",
+        "Law Offices of Anna Smith Felts, PLLC",
+        "Law Offices of James Scott Farrin",
+        "Matheson & Associates PLLC",
+        "McIlveen Family Law Firm",
+        "Parker Poe",
+        "Poyner Spruill LLP",
+        "Ricci Law Firm Injury Lawyers",
+        "Saad Law",
+        "Smith Anderson",
+        "Tharrington Smith LLP",
+        "Wade M. Smith, Attorney",
+        "Whitley Law Firm Injury Lawyers"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Parker Poe",
+          "Poyner Spruill LLP",
+          "Smith Anderson"
+        ],
+        "claude": [
+          "Brooks Pierce",
+          "Parker Poe",
+          "Poyner Spruill LLP",
+          "Smith Anderson"
+        ],
+        "gemini": [
+          "Kurtz & Blum, PLLC",
+          "Smith Anderson",
+          "Tharrington Smith LLP"
+        ],
+        "ai_overviews": [
+          "Cotten Law Firm, PLLC",
+          "DeMent Askew Johnson & Marshall, LLP",
+          "Jackson Law",
+          "Law Offices of James Scott Farrin",
+          "Matheson & Associates PLLC",
+          "Saad Law",
+          "Smith Anderson",
+          "Tharrington Smith LLP",
+          "Whitley Law Firm Injury Lawyers"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Raleigh, NC",
+      "rosterSize": 94,
+      "namedStrict": [
+        "42 & Lawrence",
+        "Bittersweet",
+        "Blackbird Books and Coffee",
+        "Cup A Joe",
+        "Haraz Coffee House",
+        "Heirloom",
+        "Iris Coffee Lab",
+        "Jubala Coffee",
+        "Little Native Coffee Co.",
+        "Lucky Tree",
+        "Morning Times",
+        "NoRa Cafe",
+        "Pine State Coffee",
+        "Raleigh Coffee Company",
+        "Sir Walter Coffee",
+        "Sola Coffee Cafe",
+        "Willow House Coffee",
+        "lucettegrace"
+      ],
+      "namedLoose": [
+        "321 Coffee - Downtown Raleigh",
+        "42 & Lawrence",
+        "BREW Coffee Bar - McNeill Pointe",
+        "Benelux Café",
+        "Bittersweet",
+        "Black & White Coffee, at Videri Chocolate Factory",
+        "Blackbird Books and Coffee",
+        "Cup A Joe",
+        "Haraz Coffee House",
+        "Heirloom",
+        "Idle Hour Coffee Roasters",
+        "Iris Coffee Lab",
+        "Jubala Coffee",
+        "Little Native Coffee Co.",
+        "Lucky Tree",
+        "Morning Times",
+        "Narrative Coffee Company",
+        "NoRa Cafe",
+        "Pine State Coffee",
+        "Raleigh Coffee Company",
+        "Sir Walter Coffee",
+        "Sola Coffee Cafe",
+        "Sugar House",
+        "The Daily Planet Cafe",
+        "The Raleigh Times",
+        "Willow House Coffee",
+        "lucettegrace"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "42 & Lawrence",
+          "Bittersweet",
+          "Heirloom",
+          "Jubala Coffee",
+          "Morning Times",
+          "Sir Walter Coffee",
+          "Sola Coffee Cafe"
+        ],
+        "claude": [
+          "Cup A Joe",
+          "Morning Times"
+        ],
+        "gemini": [
+          "42 & Lawrence",
+          "Jubala Coffee",
+          "Raleigh Coffee Company",
+          "Sir Walter Coffee",
+          "lucettegrace"
+        ],
+        "ai_overviews": [
+          "Blackbird Books and Coffee",
+          "Haraz Coffee House",
+          "Heirloom",
+          "Iris Coffee Lab",
+          "Jubala Coffee",
+          "Little Native Coffee Co.",
+          "Lucky Tree",
+          "NoRa Cafe",
+          "Pine State Coffee",
+          "Sir Walter Coffee",
+          "Sola Coffee Cafe",
+          "Willow House Coffee"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Raleigh, NC",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Alter EGO Salon",
+        "Local Salon",
+        "Mane Salon",
+        "Menagerie Style House",
+        "Salon Deux",
+        "Sola Salons",
+        "The Junction Salon and Bar",
+        "The Legacy Salon Raleigh",
+        "Tone Hair Salon",
+        "Village Salon & Dry Bar"
+      ],
+      "namedLoose": [
+        "Alter EGO Salon",
+        "Arrow - Downtown Raleigh",
+        "Blissful Muse Co.",
+        "Hairitage Salon Studio",
+        "Hush Raleigh",
+        "Local Salon",
+        "Mane Salon",
+        "Menagerie Style House",
+        "Posh Hair Concepts",
+        "Royal Crown Head & Beard Spa",
+        "Salon Deux",
+        "Sellars Beauty Salon",
+        "Sola Salons",
+        "The Junction Salon and Bar",
+        "The Legacy Salon Raleigh",
+        "The Parlor North Raleigh",
+        "Tone Hair Salon",
+        "Village Salon & Dry Bar"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Alter EGO Salon",
+          "Mane Salon",
+          "Sola Salons"
+        ],
+        "claude": [],
+        "gemini": [
+          "Alter EGO Salon",
+          "Local Salon"
+        ],
+        "ai_overviews": [
+          "Alter EGO Salon",
+          "Mane Salon",
+          "Menagerie Style House",
+          "Salon Deux",
+          "The Junction Salon and Bar",
+          "The Legacy Salon Raleigh",
+          "Tone Hair Salon",
+          "Village Salon & Dry Bar"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Tucson, AZ",
+      "rosterSize": 98,
+      "namedStrict": [
+        "Advanced Family Dentistry",
+        "Campbell Dental Group",
+        "Casas Adobes Dentistry",
+        "Catalina Foothills Family Dental",
+        "Davenport & Davenport Dental Practice",
+        "Dental Wise",
+        "Ironwood Dental",
+        "Prime Dental: Dr. Sarah Kym, DDS",
+        "Skyline Dental",
+        "Swan Dental",
+        "Tucson Dental Studio",
+        "Wilmot Family Dentistry"
+      ],
+      "namedLoose": [
+        "Advanced Family Dentistry",
+        "Campbell Dental Group",
+        "Casas Adobes Dentistry",
+        "Catalina Foothills Family Dental",
+        "Davenport & Davenport Dental Practice",
+        "Dental Wise",
+        "Dentists of Tucson",
+        "Dentists on Tanque Verde",
+        "Desert Mountain Dental",
+        "Dr. Melvin M. Dixon, DDS",
+        "El Rio - Congress Dental Center",
+        "Emergency Dentist 24/7 Tucson",
+        "General Dentistry 4 Kids",
+        "Gentle Dental Broadway",
+        "Gentle Dental Oracle",
+        "Great Smile Family Dentistry",
+        "I Smile Tucson",
+        "Ironwood Dental",
+        "Pima Family Dentistry",
+        "Prime Dental: Dr. Sarah Kym, DDS",
+        "Priority Emergency Dental Care",
+        "Risas Dental and Braces - Midvale Park",
+        "Risas Dental and Braces - South Tucson",
+        "Simply Smiles Dentist Tucson",
+        "Skyline Dental",
+        "Southwest Smile Center",
+        "Swan Dental",
+        "Tucson Dental Studio",
+        "Wilmot Family Dentistry"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Catalina Foothills Family Dental"
+        ],
+        "claude": [],
+        "gemini": [
+          "Swan Dental",
+          "Tucson Dental Studio"
+        ],
+        "ai_overviews": [
+          "Advanced Family Dentistry",
+          "Campbell Dental Group",
+          "Casas Adobes Dentistry",
+          "Davenport & Davenport Dental Practice",
+          "Dental Wise",
+          "Ironwood Dental",
+          "Prime Dental: Dr. Sarah Kym, DDS",
+          "Skyline Dental",
+          "Wilmot Family Dentistry"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Tucson, AZ",
+      "rosterSize": 88,
+      "namedStrict": [
+        "Anytime Fitness",
+        "Beast Strong Powerhouse, LLC",
+        "Chuze Fitness",
+        "Fitness Center",
+        "Gym Two Forty Four",
+        "LA Fitness",
+        "Planet Fitness",
+        "Prestige Fitness",
+        "The Gym of Tucson",
+        "Tucson Racquet & Fitness Club",
+        "Tucson Strength",
+        "VASA Fitness",
+        "World Gym Tucson"
+      ],
+      "namedLoose": [
+        "Anytime Fitness",
+        "Beast Strong Powerhouse, LLC",
+        "Block Fitness Catalina Foothills",
+        "Chuze Fitness",
+        "Desert Sports & Fitness - Southwest",
+        "Fitness Center",
+        "Gym Two Forty Four",
+        "LA Fitness",
+        "Lohse Family YMCA",
+        "Midvalley Athletic Club",
+        "Planet Fitness",
+        "Prestige Fitness",
+        "Shark Sports Fitness & Training",
+        "The Gym of Tucson",
+        "The Shed…a place for BABS LLC",
+        "Tucson Racquet & Fitness Club",
+        "Tucson Strength",
+        "Undisputed Tucson Jiu Jitsu - Boxing - Kickboxing - Fitness Gym",
+        "University of Arizona - Recreation Center",
+        "VASA Fitness",
+        "Workout Anytime Madera Village",
+        "World Gym Tucson",
+        "YMCA of Tucson"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Anytime Fitness",
+          "Chuze Fitness",
+          "LA Fitness",
+          "Planet Fitness",
+          "Tucson Racquet & Fitness Club",
+          "Tucson Strength",
+          "VASA Fitness"
+        ],
+        "claude": [
+          "Anytime Fitness",
+          "Chuze Fitness",
+          "LA Fitness",
+          "Planet Fitness"
+        ],
+        "gemini": [
+          "LA Fitness",
+          "Planet Fitness",
+          "Tucson Racquet & Fitness Club",
+          "Tucson Strength"
+        ],
+        "ai_overviews": [
+          "Beast Strong Powerhouse, LLC",
+          "Chuze Fitness",
+          "Fitness Center",
+          "Gym Two Forty Four",
+          "Planet Fitness",
+          "Prestige Fitness",
+          "The Gym of Tucson",
+          "Tucson Strength",
+          "VASA Fitness",
+          "World Gym Tucson"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Tucson, AZ",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Al Coronado Plumbing",
+        "Cal's Plumbing Inc.",
+        "Code Blue Plumbing",
+        "Cummings Plumbing Heating and Cooling",
+        "Economy Plumbing Service LLC",
+        "Mr. Rooter Plumbing of Tucson",
+        "Parker & Sons",
+        "Plumber of Tucson",
+        "Roto-Rooter Plumbing & Drain Services",
+        "Tucson Plumbing",
+        "Valentine Plumbing"
+      ],
+      "namedLoose": [
+        "Abacus Plumbing Company",
+        "Al Coronado Plumbing",
+        "All in plumbing LLC",
+        "Arico Plumbing Heating Cooling",
+        "Arizona Elite Plumbing",
+        "Benjamin Franklin Plumbing of Greater Tucson",
+        "Cal's Plumbing Inc.",
+        "Code Blue Plumbing",
+        "Cool Willy’s Air & Plumbing",
+        "Cummings Plumbing Heating and Cooling",
+        "Economy Plumbing Service LLC",
+        "Full Service Plumbing Pros",
+        "Fusion Plumbing & Air",
+        "Knight Brothers Plumbing LLC",
+        "Mr. Rooter Plumbing of Tucson",
+        "My Plumber Plumbing Services LLC",
+        "Oro Valley Plumbing LLC",
+        "Parker & Sons",
+        "Plumber of Tucson",
+        "Pride Heating, Cooling, Plumbing and Electrical",
+        "R G & Sons Plumbing",
+        "Right Now Plumbing and Heating",
+        "Roto-Rooter Plumbing & Drain Services",
+        "The Sunny Plumber Tucson",
+        "Tucson Plumbing",
+        "Tucson Plumbing and Drain",
+        "Valentine Plumbing"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Cummings Plumbing Heating and Cooling",
+          "Mr. Rooter Plumbing of Tucson",
+          "Parker & Sons",
+          "Tucson Plumbing"
+        ],
+        "claude": [
+          "Tucson Plumbing"
+        ],
+        "gemini": [],
+        "ai_overviews": [
+          "Al Coronado Plumbing",
+          "Cal's Plumbing Inc.",
+          "Code Blue Plumbing",
+          "Cummings Plumbing Heating and Cooling",
+          "Economy Plumbing Service LLC",
+          "Plumber of Tucson",
+          "Roto-Rooter Plumbing & Drain Services",
+          "Valentine Plumbing"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Tucson, AZ",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Farhang & Medcoff",
+        "Haralson Miller Pitt Feldman & McAnally PLC",
+        "Law Office of Carlos A. Medina, PLLC",
+        "Mesch Clark Rothschild",
+        "Shapiro Law Team",
+        "Snell & Wilmer",
+        "Taylor Law Group, PLLC",
+        "Womble Bond Dickinson (US) LLP"
+      ],
+      "namedLoose": [
+        "AJ Law, PLC Tucson",
+        "Boreale Law, PLC",
+        "Farhang & Medcoff",
+        "First Class Attorney Services",
+        "Grand Canyon Law Group",
+        "Haralson Miller Pitt Feldman & McAnally PLC",
+        "Injury Lawyers Group",
+        "Katsarelis Law Criminal Defense Attorneys",
+        "Law Office of Carlos A. Medina, PLLC",
+        "Law Offices of Alcock & Associates, PC",
+        "Mesch Clark Rothschild",
+        "Shapiro Law Team",
+        "Snell & Wilmer",
+        "Stephanie K Bond Law Office",
+        "Taylor Law Group, PLLC",
+        "The Law Office of Ryan LaMaster",
+        "The McDonald Law Office",
+        "The W Law Firm P.L.L.C.",
+        "Tucson Criminal Lawyer",
+        "Womble Bond Dickinson (US) LLP"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Farhang & Medcoff",
+          "Mesch Clark Rothschild",
+          "Shapiro Law Team",
+          "Snell & Wilmer"
+        ],
+        "claude": [
+          "Snell & Wilmer"
+        ],
+        "gemini": [
+          "Haralson Miller Pitt Feldman & McAnally PLC",
+          "Mesch Clark Rothschild"
+        ],
+        "ai_overviews": [
+          "Law Office of Carlos A. Medina, PLLC",
+          "Mesch Clark Rothschild",
+          "Snell & Wilmer",
+          "Taylor Law Group, PLLC",
+          "Womble Bond Dickinson (US) LLP"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Tucson, AZ",
+      "rosterSize": 99,
+      "namedStrict": [
+        "Aveda Institute Tucson",
+        "Conrad & Blue Hair Salon",
+        "Forage Hair Co",
+        "Mabel Salon",
+        "Salon Nouveau",
+        "Salon Salon",
+        "Willow Salon"
+      ],
+      "namedLoose": [
+        "Adriana Hill Salon & Co. | Invisible Bead Extensions ®",
+        "Aveda Institute Tucson",
+        "Conrad & Blue Hair Salon",
+        "Craft Collective Salon",
+        "Essential Beauty AZ",
+        "Forage Hair Co",
+        "Gadabout SalonSpas - Speedway",
+        "Hand + Heritage Salon ( Formerly Studio 110)",
+        "House of Riotz",
+        "Mabel Salon",
+        "Maru's Hair and Beauty",
+        "R Salon Day Spa",
+        "Salon Nouveau",
+        "Salon Salon",
+        "Studio 98 Full Service Salon",
+        "Studio Tucson Salon for Hair",
+        "Willow Salon",
+        "Z Beauty Bar"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Aveda Institute Tucson",
+          "Salon Nouveau",
+          "Salon Salon"
+        ],
+        "claude": [],
+        "gemini": [
+          "Salon Salon"
+        ],
+        "ai_overviews": [
+          "Conrad & Blue Hair Salon",
+          "Forage Hair Co",
+          "Mabel Salon",
+          "Salon Nouveau",
+          "Willow Salon"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Tucson, AZ",
+      "rosterSize": 87,
+      "namedStrict": [
+        "Barista Del Barrio",
+        "Barista del Barrio",
+        "Batch",
+        "Black Crown Coffee Company",
+        "Cafe Passe",
+        "Caffe Luce",
+        "Cartel Roasting Co",
+        "Decibel Coffee Works",
+        "Exo Roast Co",
+        "Presta Coffee Roaster",
+        "Presta Coffee Roasters",
+        "Raging Sage Coffee Roasters",
+        "Red Captain Coffee Company",
+        "Sonoran House",
+        "Talega Coffee Roasters"
+      ],
+      "namedLoose": [
+        "Bar Crisol/Exo",
+        "Barista Del Barrio",
+        "Batch",
+        "Black Crown Coffee Company",
+        "Black Rifle Coffee Company",
+        "Cafe Passe",
+        "Caffe Luce",
+        "Cartel Roasting Co",
+        "Coffee Times Drive-Thru Espresso",
+        "Decibel Coffee Works",
+        "Exo Roast Co",
+        "Presta Coffee Roaster",
+        "Presta Coffee Roasters",
+        "Raging Sage Coffee Roasters",
+        "Red Captain Coffee Company",
+        "Savaya Coffee at the Flin",
+        "Sonoran House",
+        "Talega Coffee Roasters",
+        "Tucson Coffee Roasters"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Cafe Passe",
+          "Caffe Luce",
+          "Cartel Roasting Co",
+          "Decibel Coffee Works",
+          "Exo Roast Co",
+          "Presta Coffee Roaster",
+          "Presta Coffee Roasters",
+          "Raging Sage Coffee Roasters"
+        ],
+        "claude": [
+          "Batch"
+        ],
+        "gemini": [
+          "Caffe Luce",
+          "Cartel Roasting Co",
+          "Exo Roast Co",
+          "Presta Coffee Roaster",
+          "Presta Coffee Roasters",
+          "Raging Sage Coffee Roasters"
+        ],
+        "ai_overviews": [
+          "Barista Del Barrio",
+          "Barista del Barrio",
+          "Black Crown Coffee Company",
+          "Decibel Coffee Works",
+          "Exo Roast Co",
+          "Presta Coffee Roaster",
+          "Presta Coffee Roasters",
+          "Raging Sage Coffee Roasters",
+          "Red Captain Coffee Company",
+          "Sonoran House",
+          "Talega Coffee Roasters"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "dentist / Boise, ID",
+      "rosterSize": 98,
+      "namedStrict": [
+        "Boise Bench Dentistry",
+        "Boise Dental Center",
+        "Boise Family Dental Care",
+        "Boise River Dental",
+        "Capitol Dental",
+        "High Desert Dental",
+        "Maple Grove Dentistry",
+        "Modern Dental",
+        "North End Dental",
+        "Northwest Dental Center",
+        "Summit Dental Group",
+        "Times Square Dental"
+      ],
+      "namedLoose": [
+        "A Reason to Smile",
+        "Aspen Dental - Boise, ID",
+        "Blue Heron Dental",
+        "Boise Bench Dentistry",
+        "Boise Dental Center",
+        "Boise Family Dental Care",
+        "Boise River Dental",
+        "Boise Smiles",
+        "Capitol Dental",
+        "Dental Clinic of Boise..",
+        "Dentistry for Children",
+        "Dentists of Boise and Orthodontics",
+        "Downtown Dental: Kowalczyk Ryan DDS (Co-Wall-Sick)",
+        "Dr. Thomas Walker Emergency Dental Center – Boise 24 Hours",
+        "Gentle Family Dentistry",
+        "Green Tree Dental",
+        "High Desert Dental",
+        "Idaho Smiles & Associates",
+        "Idaho Street Dental",
+        "Idahome Smiles",
+        "Intermountain Dental Specialists",
+        "Maple Grove Dentistry",
+        "Modern Dental",
+        "North End Dental",
+        "Northwest Dental Center",
+        "Parkcenter Smiles",
+        "Southwest Dental Arts",
+        "Summit Dental Group",
+        "Times Square Dental",
+        "Tree City Family Dental"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Boise Family Dental Care",
+          "North End Dental",
+          "Summit Dental Group"
+        ],
+        "claude": [
+          "Boise Dental Center"
+        ],
+        "gemini": [
+          "Boise Dental Center",
+          "Modern Dental",
+          "Summit Dental Group"
+        ],
+        "ai_overviews": [
+          "Boise Bench Dentistry",
+          "Boise Family Dental Care",
+          "Boise River Dental",
+          "Capitol Dental",
+          "High Desert Dental",
+          "Maple Grove Dentistry",
+          "Northwest Dental Center",
+          "Summit Dental Group",
+          "Times Square Dental"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "gym / Boise, ID",
+      "rosterSize": 97,
+      "namedStrict": [
+        "Anytime Fitness",
+        "Boise Iron Gym",
+        "Fitness Co",
+        "Fort Boise Community Center",
+        "Functional Idaho Strength & Mobility for Longevity",
+        "Grove Fitness Club & Spa",
+        "Gym",
+        "Iron Legacy Barbell",
+        "Jack's Urban Meeting Place (JUMP)",
+        "Orangetheory Fitness",
+        "Planet Fitness",
+        "Villa Sport Fitness - Park Center",
+        "Wolf Pack Fitness"
+      ],
+      "namedLoose": [
+        "Anytime Fitness",
+        "Boise CrossFit",
+        "Boise High School Gymnasium",
+        "Boise Iron Gym",
+        "Domination Fitness Center of Boise",
+        "Downtown Boise YMCA",
+        "Embody Pilates,Yoga & Fitness: A Movement Studio Downtown Boise & Remote",
+        "Fitness Co",
+        "Fort Boise Community Center",
+        "Functional Idaho Strength & Mobility for Longevity",
+        "Grove Fitness Club & Spa",
+        "Gym",
+        "Idaho Fitness Factory Fairview",
+        "Iron Legacy Barbell",
+        "Jack's Urban Meeting Place (JUMP)",
+        "Kvell Group Fitness and Nutrition",
+        "Kvell Sports & Athletic Performance Training",
+        "LOCAL Boise",
+        "Orangetheory Fitness",
+        "Planet Fitness",
+        "Poise Health & Fitness",
+        "The Vault: Yoga Community Love",
+        "Verdant CrossFit",
+        "Villa Sport Fitness - Fairview",
+        "Villa Sport Fitness - Park Center",
+        "Wolf Pack Fitness",
+        "Workout Anytime North Boise",
+        "Y Community Hub"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Anytime Fitness",
+          "Fitness Co",
+          "Gym",
+          "Jack's Urban Meeting Place (JUMP)",
+          "Orangetheory Fitness",
+          "Planet Fitness"
+        ],
+        "claude": [
+          "Anytime Fitness",
+          "Fitness Co",
+          "Gym",
+          "Planet Fitness"
+        ],
+        "gemini": [
+          "Fort Boise Community Center",
+          "Gym",
+          "Jack's Urban Meeting Place (JUMP)"
+        ],
+        "ai_overviews": [
+          "Anytime Fitness",
+          "Boise Iron Gym",
+          "Functional Idaho Strength & Mobility for Longevity",
+          "Grove Fitness Club & Spa",
+          "Gym",
+          "Iron Legacy Barbell",
+          "Villa Sport Fitness - Park Center",
+          "Wolf Pack Fitness"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "law firm / Boise, ID",
+      "rosterSize": 100,
+      "namedStrict": [
+        "Bublitz Law, P.C.",
+        "Fisher Hudson Brown Horton",
+        "Givens Pursley LLP",
+        "Hawley Troxell",
+        "Hepworth Holzer, LLP",
+        "Holland & Hart LLP",
+        "Idaho Divorce Law Firm",
+        "Idaho Legal Justice",
+        "Litster Frost Injury Lawyers",
+        "Parke Gordon Law",
+        "Taylor Law Offices, PLLC"
+      ],
+      "namedLoose": [
+        "Boise Family Law",
+        "Boise Law Group, PLLC",
+        "Boise Law, PLLC",
+        "Bublitz Law, P.C.",
+        "Craig Swapp & Associates",
+        "Fisher Hudson Brown Horton",
+        "Givens Pursley LLP",
+        "Hawley Troxell",
+        "Hepworth Holzer, LLP",
+        "Holland & Hart LLP",
+        "Idaho Divorce Law Firm",
+        "Idaho Legal Justice",
+        "KB Legal, PLLC",
+        "Litster Frost Injury Lawyers",
+        "Ludwig Shoufler Miller Johnson LLP",
+        "Parke Gordon Law",
+        "Riverstone Estate Planning and Probate",
+        "Scot Ludwig Law and Associates",
+        "Strong Law",
+        "Taylor Law Offices, PLLC",
+        "The Cox Law Firm, PLLC",
+        "Treasure Valley Law Group",
+        "Varin Thomas"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Givens Pursley LLP",
+          "Hawley Troxell",
+          "Holland & Hart LLP"
+        ],
+        "claude": [
+          "Givens Pursley LLP",
+          "Hawley Troxell"
+        ],
+        "gemini": [
+          "Givens Pursley LLP",
+          "Hawley Troxell",
+          "Hepworth Holzer, LLP",
+          "Holland & Hart LLP"
+        ],
+        "ai_overviews": [
+          "Bublitz Law, P.C.",
+          "Fisher Hudson Brown Horton",
+          "Givens Pursley LLP",
+          "Hawley Troxell",
+          "Hepworth Holzer, LLP",
+          "Idaho Divorce Law Firm",
+          "Idaho Legal Justice",
+          "Litster Frost Injury Lawyers",
+          "Parke Gordon Law",
+          "Taylor Law Offices, PLLC"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "plumber / Boise, ID",
+      "rosterSize": 98,
+      "namedStrict": [
+        "Ace Plumbing",
+        "Boise Family Plumbing LLC",
+        "Boise Plumbing",
+        "Boise Valley Plumbing",
+        "Cloverdale Plumbing",
+        "Five Star Service Pros Plumbing",
+        "Goodson Plumbing Services",
+        "Magic Electric, Plumbing, Heating + Air",
+        "Master Plumbing",
+        "Perfect Plumbing Heating & Air",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Viking Plumbing",
+        "Wickstrom Plumbing Heating & Cooling"
+      ],
+      "namedLoose": [
+        "A1 Handyman",
+        "Ace Plumbing",
+        "All Star Plumbing and Restoration",
+        "Beacon Plumbing, Heating, Air-Conditioning, and Electrical, Inc",
+        "Boise Drain Service",
+        "Boise Family Plumbing LLC",
+        "Boise Plumbing",
+        "Boise Plumbing & Drain Clean Co",
+        "Boise Plumbing, Water Heaters and Drain Repair",
+        "Boise Valley Plumbing",
+        "Cloverdale Plumbing",
+        "Diamond Heating, Cooling, Plumbing & Electric",
+        "Drain Pro Plumbing Heating & Air Conditioning",
+        "Five Star Service Pros Plumbing",
+        "Goodson Plumbing Services",
+        "Magic Electric, Plumbing, Heating + Air",
+        "Master Plumbing",
+        "Mr. Rooter Plumbing of Boise",
+        "Perfect Plumbing Heating & Air",
+        "Plumbing Solutions of Boise",
+        "Roto-Rooter Plumbing & Water Cleanup",
+        "Standard Plumbing Supply",
+        "Viking Plumbing",
+        "Western Heating and Air Conditioning",
+        "Wickstrom Plumbing Heating & Cooling"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Roto-Rooter Plumbing & Water Cleanup",
+          "Viking Plumbing"
+        ],
+        "claude": [
+          "Ace Plumbing",
+          "Boise Plumbing",
+          "Roto-Rooter Plumbing & Water Cleanup"
+        ],
+        "gemini": [
+          "Boise Plumbing",
+          "Boise Valley Plumbing",
+          "Master Plumbing"
+        ],
+        "ai_overviews": [
+          "Boise Family Plumbing LLC",
+          "Boise Plumbing",
+          "Cloverdale Plumbing",
+          "Five Star Service Pros Plumbing",
+          "Goodson Plumbing Services",
+          "Magic Electric, Plumbing, Heating + Air",
+          "Master Plumbing",
+          "Perfect Plumbing Heating & Air",
+          "Wickstrom Plumbing Heating & Cooling"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "coffee shop / Boise, ID",
+      "rosterSize": 94,
+      "namedStrict": [
+        "Coffee Life Boise",
+        "District Coffee House",
+        "Flying M Coffee House",
+        "Form & Function Coffee",
+        "Hyde Perk Coffee House",
+        "Java Hyde Park",
+        "Neckar Coffee",
+        "Primal Coffee Boise",
+        "Push & Pour",
+        "Slow by Slow Coffee"
+      ],
+      "namedLoose": [
+        "AC Cafe Boise Downtown",
+        "Alchemist Coffee 27th St.",
+        "Alchemist Coffee Overland",
+        "BACON Boise Breakfast & Brunch",
+        "Caffeina Roasting Company",
+        "Coffee Life Boise",
+        "Common Ground Coffee and Market",
+        "Dawson Taylor Coffee Roasters - Downtown Cafe",
+        "District Coffee House",
+        "Flying M Coffee House",
+        "Form & Function Coffee",
+        "Form & Function Coffee - Sparrow",
+        "Hyde Perk Coffee House",
+        "Java Hyde Park",
+        "Java | Downtown Boise",
+        "Jitters By Jayne",
+        "Momentum Roasting Co.",
+        "Neckar Coffee",
+        "Primal Coffee Boise",
+        "Primal Coffee Downtown",
+        "Push & Pour",
+        "Slow by Slow Coffee"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "District Coffee House",
+          "Flying M Coffee House",
+          "Form & Function Coffee",
+          "Push & Pour",
+          "Slow by Slow Coffee"
+        ],
+        "claude": [
+          "Neckar Coffee"
+        ],
+        "gemini": [
+          "District Coffee House",
+          "Flying M Coffee House",
+          "Java Hyde Park",
+          "Neckar Coffee",
+          "Push & Pour",
+          "Slow by Slow Coffee"
+        ],
+        "ai_overviews": [
+          "Coffee Life Boise",
+          "District Coffee House",
+          "Flying M Coffee House",
+          "Form & Function Coffee",
+          "Hyde Perk Coffee House",
+          "Neckar Coffee",
+          "Primal Coffee Boise",
+          "Slow by Slow Coffee"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    },
+    {
+      "market": "hair salon / Boise, ID",
+      "rosterSize": 100,
+      "namedStrict": [
+        "21 North Concept Salon And Spa",
+        "Graeber & Company - Lifestyle Salon + Facial Bar",
+        "Hair Color Boise",
+        "Lunatic Fringe Salon - Boise",
+        "Madril Salon",
+        "Murraki Salon",
+        "Sola Salons",
+        "Thistle and Poppy Salon"
+      ],
+      "namedLoose": [
+        "21 North Concept Salon And Spa",
+        "Boise Hair Studio",
+        "Bombshells & Blokes, An Aveda Concept Salon",
+        "Collective Concept",
+        "Cut n Style",
+        "Downtown Boise Hair Extensions",
+        "E.L.E.V.A.T.E.D Hair Lounge",
+        "Fête Style Bar",
+        "Graeber & Company - Lifestyle Salon + Facial Bar",
+        "Hair Color Boise",
+        "Lunatic Fringe Salon - Boise",
+        "Madril Salon",
+        "Murraki Salon",
+        "Muse Salon & Spa",
+        "NEAMAH'S BARBER SHOP",
+        "Platinum Beauty Lounge",
+        "Premier Hair Studio",
+        "Scot Christopher Hair Design",
+        "Sola Salons",
+        "Stacie Hair Co",
+        "The White Tulip Salon",
+        "Thistle and Poppy Salon"
+      ],
+      "namedStrictByEngine": {
+        "chatgpt": [
+          "Sola Salons"
+        ],
+        "claude": [],
+        "gemini": [
+          "Hair Color Boise"
+        ],
+        "ai_overviews": [
+          "21 North Concept Salon And Spa",
+          "Graeber & Company - Lifestyle Salon + Facial Bar",
+          "Lunatic Fringe Salon - Boise",
+          "Madril Salon",
+          "Murraki Salon",
+          "Thistle and Poppy Salon"
+        ]
+      },
+      "aiOverviewBlockPresent": true,
+      "droppedSamples": 0
+    }
+  ]
+}
